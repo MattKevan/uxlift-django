@@ -1,11 +1,91 @@
 {% extends '_base.html' %}
 {% load static %}
 
-{% block title %}Home page{% endblock title %}
+{% block title %}UX News | Latest news{% endblock title %}
 
 {% block content %}
-<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-  <img src="{% static 'images/logo.png' %}" class="img-fluid" alt="DjangoX logo"/>
-  <p class="lead">A Django starter project with batteries.</p>
+<button id="refreshButton">Refresh feeds</button>
+<p id="totalSites"></p>
+<p id="totalPosts"></p>
+
+<div id="errorList"></div>
+
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <!-- Title -->
+    <div class="mx-auto mb-10 lg:mb-14">
+        <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Latest news</h2>
+    </div>
+    <!-- End Title -->
+
+    <div class="mx-auto divide-y divide-gray-200 dark:divide-gray-700">
+        {% for post in posts %}
+
+        <!-- Posts -->
+
+        <div class="py-8 first:pt-0 last:pb-0">
+          <div class="flex gap-x-5"><div>
+              <h3 class="md:text-lg font-semibold text-gray-800 dark:text-gray-200">
+                <a href="{{ post.url }}" target="_blank">{{ post.title }}</a>
+
+              </h3>
+              <p class="mt-1 text-gray-500">
+                <a href="{{ post.url }}" target="_blank">{{ post.site }} - {{ post.date_published }} </a> <br>
+                {{post.categories}}
+              </p>
+            </div>
+          </div>
+        </div>
+
+    
+
+<!-- End posts -->
+ 
+
+  
+{% endfor %}
+      </div>
+      <!-- Pagination -->
+<nav class="flex items-center gap-x-1 mx-auto">
+    {% if page_obj.has_previous %}
+    <a  class="min-h-[38px] min-w-[38px] py-2 px-2.5 inline-flex justify-center items-center gap-x-2 text-sm rounded-lg text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-white/10 dark:focus:bg-white/10" href="?page={{ page_obj.previous_page_number }}">
+    <svg class="flex-shrink-0 w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+    <span aria-hidden="true" class="sr-only">Previous</span>
+  </a>
+        {% endif %}
+  <div class="flex items-center gap-x-1">
+    <span class="min-h-[38px] min-h-[38px] min-w-[38px] flex justify-center items-center border border-gray-200 text-gray-800 py-2 px-3 text-sm rounded-lg focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:border-gray-700 dark:text-white dark:focus:bg-white/10">{{ page_obj.number }}</span>
+    <span class="min-h-[38px] flex justify-center items-center text-gray-500 py-2 px-1.5 text-sm dark:text-gray-500">of</span>
+    <span class="min-h-[38px] flex justify-center items-center text-gray-500 py-2 px-1.5 text-sm dark:text-gray-500">{{ page_obj.paginator.num_pages }}</span>
+  </div>
+  {% if page_obj.has_next %}
+  <a class="min-h-[38px] min-w-[38px] py-2 px-2.5 inline-flex justify-center items-center gap-x-2 text-sm rounded-lg text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-white/10 dark:focus:bg-white/10" href="?page={{ page_obj.next_page_number }}">
+    <span aria-hidden="true" class="sr-only">Next</span>
+    <svg class="flex-shrink-0 w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+  </a>
+  {% endif %}
+</nav>
+<!-- End Pagination -->
+    </div>
+  </div>
 </div>
+
+
+
+<script>
+$("#refreshButton").click(function() {
+    $.get("/refresh-feeds/", function(data) {
+        // data is the JSON object returned by the server
+        $("#totalSites").text(data.total_sites);
+        $("#totalPosts").text(data.total_posts);
+
+        if (data.errors.length > 0) {
+            // handle errors (maybe append them to a <ul> on the page?)
+            for (let i = 0; i < data.errors.length; i++) {
+                $("#errorList").append("<li>" + data.errors[i] + "</li>");
+            }
+        }
+    });
+});
+
+</script>
 {% endblock content %}
