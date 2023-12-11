@@ -1,33 +1,30 @@
 from django.contrib.auth.decorators import login_required
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from .forms import SiteForm, PostForm
 from django.contrib import messages
-from .models import Site, Post
+from .models import Site, Post, Topic, Tool
 from django.views.generic import ListView
 from django.http import JsonResponse
 from django.views import View
 import requests
 from bs4 import BeautifulSoup
-
+from django.http import HttpResponse
 from django.db.models import Q
-from .tasks import fetch_posts
 
 @login_required
 def submit_url(request):
     if request.method == 'POST':
         form = SiteForm(request.POST)
         if form.is_valid():
-            title = form.cleaned_data['title']
             url = form.cleaned_data['url']
-            existing_site = Site.objects.filter(Q(title=title) | Q(url=url)).first()
+            existing_site = Site.objects.filter(url=url).first()
             if existing_site:
-                messages.error(request, "A site with this title or URL already exists.")
+                messages.error(request, "A site with this URL already exists.")
             else:
-                submitted_url = form.save(commit=False)
-                submitted_url.user = request.user
-                submitted_url.save()
-                fetch_posts.delay(submitted_url.id)  # Call the Celery task
-                messages.success(request, "Thank you for submitting the URL. Posts are being fetched in the background.")
+                submitted_site = form.save(commit=False)
+                submitted_site.user = request.user
+                submitted_site.save()  # This will trigger the logic in the model's save method
+                messages.success(request, "Thank you for submitting the site. Details have been fetched and saved.")
                 return redirect('home')
     else:
         form = SiteForm()
@@ -93,3 +90,35 @@ def refresh_feeds_ajax(request):
         'total_posts': total_posts,
         'errors': errors,
     })
+
+# Topics landing page
+def topics(request):
+    tags = Topic.objects.all()
+    return render(request, 'reader/topics.html', {'tags': tags})
+
+
+def topic_page(request, tag_slug):
+    # Retrieve the tag object. Adjust 'SharedTopic' to your tag model name
+    tag = get_object_or_404(Topic, slug=tag_slug)
+
+    # Filter posts and tools by the tag name or slug
+    posts = Post.objects.filter(topics__name=tag.name)
+    tools = Tool.objects.filter(topics__name=tag.name)
+
+    return render(request, 'reader/topic-page.html', {
+        'posts': posts,
+        'tools': tools,
+        'tag_name': tag.name,
+        'tag_slug': tag.slug
+    })
+
+# Tools landing page
+def tools(request):
+    tags = Topic.objects.all()
+    tools = Tool.objects.all()
+    return render(request, 'reader/tools.html', {'tags': tags, 'tools':tools})
+
+# Individual tool page
+def tool_page(request, tool_slug):
+    tool = get_object_or_404(Tool, slug=tool_slug)
+    return render(request, 'tool-page.html', {'tool': tool})

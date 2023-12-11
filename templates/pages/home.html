@@ -13,15 +13,13 @@
 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     <!-- Title -->
     <div class="mx-auto mb-10 lg:mb-14">
-        <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Latest news</h2>
+        <h1 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Latest news</h1>
     </div>
     <!-- End Title -->
 
     <div class="mx-auto divide-y divide-gray-200 dark:divide-gray-700">
         {% for post in posts %}
-
-        <!-- Posts -->
-
+        <!-- Post -->
         <div class="py-8 first:pt-0 last:pb-0">
           <div class="flex gap-x-5"><div>
               <h3 class="md:text-lg font-semibold text-gray-800 dark:text-gray-200">
@@ -29,19 +27,15 @@
 
               </h3>
               <p class="mt-1 text-gray-500">
-                <a href="{{ post.url }}" target="_blank">{{ post.site }} - {{ post.date_published }} </a> <br>
+                
+                <a href="{{ post.url }}" target="_blank">{% if post.site.site_icon %}
+                  <img src="/media/{{ post.site.site_icon }}">
+                  {% endif %}{{ post.site }} - {{ post.date_published }} </a> <br>
                 {{post.categories}}
               </p>
             </div>
           </div>
         </div>
-
-    
-
-<!-- End posts -->
- 
-
-  
 {% endfor %}
       </div>
       <!-- Pagination -->
@@ -72,20 +66,27 @@
 
 
 <script>
-$("#refreshButton").click(function() {
-    $.get("/refresh-feeds/", function(data) {
-        // data is the JSON object returned by the server
-        $("#totalSites").text(data.total_sites);
-        $("#totalPosts").text(data.total_posts);
+  document.getElementById("refreshButton").addEventListener("click", function() {
+      fetch("/refresh-feeds/")
+          .then(response => response.json())
+          .then(data => {
+              // data is the JSON object returned by the server
+              document.getElementById("totalSites").textContent = data.total_sites;
+              document.getElementById("totalPosts").textContent = data.total_posts;
 
-        if (data.errors.length > 0) {
-            // handle errors (maybe append them to a <ul> on the page?)
-            for (let i = 0; i < data.errors.length; i++) {
-                $("#errorList").append("<li>" + data.errors[i] + "</li>");
-            }
-        }
-    });
-});
-
+              if (data.errors.length > 0) {
+                  // handle errors
+                  const errorList = document.getElementById("errorList");
+                  errorList.innerHTML = ''; // Clear existing errors
+                  data.errors.forEach(error => {
+                      let listItem = document.createElement("li");
+                      listItem.textContent = error;
+                      errorList.appendChild(listItem);
+                  });
+              }
+          })
+          .catch(error => console.error('Error:', error));
+  });
 </script>
+
 {% endblock content %}

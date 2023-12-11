@@ -5,7 +5,7 @@ from crispy_forms.helper import FormHelper
 class SiteForm(forms.ModelForm):
     class Meta:
         model = Site
-        fields = ['title', 'description', 'url']  # include the new fields
+        fields = ['url']  # include the new fields
 
 
 class PostForm(forms.ModelForm):

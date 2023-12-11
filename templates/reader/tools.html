@@ -1,0 +1,18 @@
+
+{% extends '_base.html' %}
+{% load static %}
+{% block title %}Tools{% endblock title %}
+{% block content %}
+<div class="pb-24 sm:pb-32">
+    <div class="mx-auto max-w-7xl">
+        <h1 class="mt-2 text-4xl font-bold text-gray-900 sm:text-6xl">Tools</h1>
+        <p class="mt-6 text-lg leading-8 text-gray-600">Recommended tools and services for your UX and design workflows.</p>
+    </div>
+  </div>
+
+  <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grids-col-3 xl:grid-cols-3 gap-3 sm:gap-6">
+    {% for tool in tools %}
+      {% include 'reader/partials/tool-card.html' %}
+    {% endfor %}
+  </div>
+{% endblock %}

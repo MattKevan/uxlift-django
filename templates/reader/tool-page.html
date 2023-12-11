@@ -1,0 +1,21 @@
+
+{% extends '_base.html' %}
+{% load static %}
+{% block title %}Topics{% endblock title %}
+{% block content %}
+<h1>{{ tool.title }}</h1>
+<ul>
+    {% for post in posts %}
+    <li>{{ post.title }}</li>  <!-- Adjust based on your Post model fields -->
+{% endfor %}
+
+</ul>
+{% if tools%}
+<h2>Tools</h2>
+<div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grids-col-3 xl:grid-cols-3 gap-3 sm:gap-6">
+    {% for tool in tools %}
+      {% include 'reader/partials/tool-card.html' %}
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endblock %}

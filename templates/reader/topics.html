@@ -1,0 +1,40 @@
+
+{% extends '_base.html' %}
+{% load static %}
+{% block title %}Topics{% endblock title %}
+{% block content %}
+<div class="pb-24 sm:pb-32">
+    <div class="mx-auto max-w-7xl">
+        <h1 class="mt-2 text-4xl font-bold text-gray-900 sm:text-6xl">Topics</h1>
+        <p class="mt-6 text-lg leading-8 text-gray-600">Concepts related to user experience design and usability.
+
+        </p>
+    </div>
+  </div>
+
+  <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grids-col-4 xl:grid-cols-4 gap-3 sm:gap-6">
+    {% for tag in tags %}
+
+    <!-- Card -->
+    <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" 
+    href="{% url 'topic_page' tag.slug %}" hx-get="{% url 'topic_page' tag.slug %}" hx-target="body" hx-push-url="true">
+      <div class="p-4 md:p-5">
+        <div class="flex justify-between items-center">
+          <div>
+            <h3 class="group-hover:text-blue-600 text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
+                {{ tag.name }}
+            </h3>
+            
+          </div>
+          <div class="ps-3">
+            <svg class="flex-shrink-0 w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+          </div>
+        </div>
+      </div>
+    </a>
+    <!-- End Card -->
+    
+
+{% endfor %}
+</div>
+{% endblock %}
