@@ -9,8 +9,8 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # https://docs.djangoproject.com/en/dev/ref/settings/#std:setting-SECRET_KEY
-
 SECRET_KEY = os.environ.get('SECRET_KEY')
+
 # https://docs.djangoproject.com/en/dev/ref/settings/#debug
 DEBUG = os.environ.get('DEBUG')
 
