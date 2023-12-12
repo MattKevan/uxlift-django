@@ -19,12 +19,9 @@ ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1", ".vercel.app", ".now.sh"]
 
 TAILWIND_APP_NAME = 'theme'
 
-<<<<<<< HEAD
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-=======
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -41,10 +38,7 @@ INSTALLED_APPS = [
     "crispy_forms",
     "crispy_tailwind",
     "debug_toolbar",
-<<<<<<< HEAD
     'tagulous',
-=======
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
     # Local
     "accounts",
     "pages",
@@ -68,7 +62,6 @@ MIDDLEWARE = [
     "django_browser_reload.middleware.BrowserReloadMiddleware",
 ]
 
-<<<<<<< HEAD
 SERIALIZATION_MODULES = {
     'xml':    'tagulous.serializers.xml_serializer',
     'json':   'tagulous.serializers.json',
@@ -76,8 +69,6 @@ SERIALIZATION_MODULES = {
     'yaml':   'tagulous.serializers.pyyaml',
 }
 
-=======
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
 # https://docs.djangoproject.com/en/dev/ref/settings/#root-urlconf
 ROOT_URLCONF = "uxnews.urls"
 
