@@ -13,23 +13,13 @@
 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     <!-- Title -->
     <div class="mx-auto mb-10 lg:mb-14">
-<<<<<<< HEAD
         <h1 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Latest news</h1>
-=======
-        <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Latest news</h2>
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
     </div>
     <!-- End Title -->
 
     <div class="mx-auto divide-y divide-gray-200 dark:divide-gray-700">
         {% for post in posts %}
-<<<<<<< HEAD
         <!-- Post -->
-=======
-
-        <!-- Posts -->
-
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
         <div class="py-8 first:pt-0 last:pb-0">
           <div class="flex gap-x-5"><div>
               <h3 class="md:text-lg font-semibold text-gray-800 dark:text-gray-200">
@@ -37,29 +27,15 @@
 
               </h3>
               <p class="mt-1 text-gray-500">
-<<<<<<< HEAD
                 
                 <a href="{{ post.url }}" target="_blank">{% if post.site.site_icon %}
                   <img src="/media/{{ post.site.site_icon }}">
                   {% endif %}{{ post.site }} - {{ post.date_published }} </a> <br>
-=======
-                <a href="{{ post.url }}" target="_blank">{{ post.site }} - {{ post.date_published }} </a> <br>
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
                 {{post.categories}}
               </p>
             </div>
           </div>
         </div>
-<<<<<<< HEAD
-=======
-
-    
-
-<!-- End posts -->
- 
-
-  
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
 {% endfor %}
       </div>
       <!-- Pagination -->
@@ -90,7 +66,6 @@
 
 
 <script>
-<<<<<<< HEAD
   document.getElementById("refreshButton").addEventListener("click", function() {
       fetch("/refresh-feeds/")
           .then(response => response.json())
@@ -114,22 +89,4 @@
   });
 </script>
 
-=======
-$("#refreshButton").click(function() {
-    $.get("/refresh-feeds/", function(data) {
-        // data is the JSON object returned by the server
-        $("#totalSites").text(data.total_sites);
-        $("#totalPosts").text(data.total_posts);
-
-        if (data.errors.length > 0) {
-            // handle errors (maybe append them to a <ul> on the page?)
-            for (let i = 0; i < data.errors.length; i++) {
-                $("#errorList").append("<li>" + data.errors[i] + "</li>");
-            }
-        }
-    });
-});
-
-</script>
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
 {% endblock content %}

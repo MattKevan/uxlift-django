@@ -8,13 +8,10 @@ urlpatterns = [
     path('sites/', views.list_sites, name='list_sites'),
     path('refresh-feeds/', refresh_feeds_ajax, name='refresh-feeds-ajax'),
     path('submit-post/', submit_post, name='submit_post'),
-<<<<<<< HEAD
     path('topics/', views.topics, name='topics'),
     path('topics/<slug:tag_slug>/', views.topic_page, name='topic_page'),
     path('tools/', views.tools, name='tools'),
     path('tools/<slug:tool_slug>/', views.tool_page, name='tool_page'),
 
-=======
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
 
 ]

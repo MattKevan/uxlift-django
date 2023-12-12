@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 from dateutil.parser import parse
 from django.contrib.auth.models import User  # Add this line
 from django.utils import timezone
-<<<<<<< HEAD
 import tagulous.models
 import os
 import requests
@@ -16,20 +15,19 @@ from django.core.files.base import ContentFile
 from urllib.parse import urljoin
 from django.conf import settings
 from django.db import models
+from django.utils import timezone
+from django.utils.text import slugify
 
 class Topic(tagulous.models.TagModel):
     class TagMeta:
         # Tag options go here (optional)
         pass
-=======
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
 
 class Site(models.Model):
     STATUS_CHOICES = [
         ('D', 'Draft'),
         ('P', 'Published'),
     ]
-<<<<<<< HEAD
     title = models.CharField(max_length=255)
     description = models.TextField()
     url = models.URLField()
@@ -40,25 +38,12 @@ class Site(models.Model):
 
     def __str__(self):
         return self.title
-=======
-    title = models.CharField(max_length=255)  # adjust max_length as needed
-    description = models.TextField()  # for longer text
-    url = models.URLField()
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    status = models.CharField(max_length=1, choices=STATUS_CHOICES, default='D')
-    feed_url = models.URLField(null=True, blank=True)  # Add this line
-
-    def __str__(self):
-        return self.title  # Use the title as the string representation
-
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
 
     def find_feed(self):
         response = requests.get(self.url)
         soup = BeautifulSoup(response.content, 'html.parser')
         feed_urls = [link['href'] for link in soup.find_all('link', type='application/rss+xml')]
         if feed_urls:
-<<<<<<< HEAD
             self.feed_url = feed_urls[0]
         else:
             self.feed_url = None
@@ -93,12 +78,6 @@ class Site(models.Model):
                 file_name = os.path.basename(icon_url)
                 self.site_icon.save(file_name, ContentFile(icon_response.content), save=False)
 
-=======
-            self.feed_url = feed_urls[0]  # Save the first found feed url
-        else:
-            self.feed_url = None
-
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
     def fetch_posts(self):
         if self.feed_url is None:
             print(f"No valid feed URL found for site: {self}")
@@ -143,22 +122,14 @@ class Site(models.Model):
                     categories=categories,
                 )
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
     def save(self, *args, **kwargs):
         # Check if the user is in the 'Editor' group
         if self.user.groups.filter(name='Editor').exists():
             self.status = 'P'  # Set status to 'Published'
 
         self.find_feed()  # Update the feed url before saving
-<<<<<<< HEAD
         self.find_meta_info()
         self.find_and_save_icon()
-=======
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
 
         super().save(*args, **kwargs)  # Call the "real" save() method.
 
@@ -167,10 +138,6 @@ class Site(models.Model):
             self.fetch_posts()
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
 class Post(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, null=True, blank=True, on_delete=models.SET_NULL)
     created_date = models.DateTimeField(default=timezone.now)
@@ -182,24 +149,13 @@ class Post(models.Model):
     url = models.URLField()
     image_path = models.URLField(null=True, blank=True) # or models.ImageField() depending on how you are handling images
     content = models.TextField(blank=True)  # the introduction or excerpt field
-<<<<<<< HEAD
     topics = tagulous.models.TagField(to=Topic)
-=======
-    tags = models.CharField(max_length=200, null=True, blank=True)  # or a many-to-many relation to a Tag model
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
     categories = models.CharField(max_length=200, null=True, blank=True)  # or a many-to-many relation to a Category model
     date_published = models.DateTimeField(null=True, blank=True)
 
     def __str__(self):
         return self.title
 
-
-<<<<<<< HEAD
-from django.db import models
-from django.utils import timezone
-import tagulous.models
-
-# Assuming SharedTopic is already defined as your shared tag model
 class Tool(models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField()
@@ -208,8 +164,12 @@ class Tool(models.Model):
     date = models.DateTimeField(default=timezone.now)
     topics = tagulous.models.TagField(to='Topic')  # Referencing your shared topic model
     body = models.TextField()  # This can be used for the full content of the tool
+    slug = models.SlugField(unique=True, blank=True)
 
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = slugify(self.title)
+        super(Tool, self).save(*args, **kwargs)
+        
     def __str__(self):
         return self.title
-=======
->>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
