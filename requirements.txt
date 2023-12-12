@@ -1,39 +1,57 @@
+<<<<<<< HEAD
 amqp==5.2.0
 asgiref==3.6.0
 async-timeout==4.0.3
 beautifulsoup4==4.10.0
 billiard==4.2.0
+=======
+asgiref==3.6.0
+beautifulsoup4==4.10.0
+>>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
 celery==5.3.1
 certifi==2022.12.7
 cffi==1.15.1
 charset-normalizer==3.0.1
+<<<<<<< HEAD
 click==8.1.7
 click-didyoumean==0.3.0
 click-plugins==1.1.1
 click-repl==0.3.0
 cloudinary==1.37.0
+=======
+>>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
 crispy-tailwind==0.5.0
 cryptography==39.0.1
 defusedxml==0.7.1
 Django==4.2
 django-allauth==0.52.0
 django-browser-reload==1.7.0
+<<<<<<< HEAD
 django-cloudinary-storage==0.3.0
 django-crispy-forms==2.0
 django-debug-toolbar==4.0.0
 django-tagulous==1.3.3
+=======
+django-crispy-forms==2.0
+django_debug_toolbar==4.0.0
+>>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
 django-tailwind==3.5.0
 feedparser==6.0.10
 gunicorn==20.1.0
 idna==3.4
+<<<<<<< HEAD
 kombu==5.3.4
 oauthlib==3.2.2
 Pillow==10.1.0
 prompt-toolkit==3.0.41
+=======
+oauthlib==3.2.2
+>>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
 psycopg==3.1.8
 psycopg-binary==3.1.8
 pycparser==2.21
 PyJWT==2.6.0
+<<<<<<< HEAD
 python-dateutil==2.8.2
 python-dotenv==1.0.0
 python3-openid==3.2.0
@@ -49,4 +67,14 @@ tzdata==2023.3
 urllib3==1.26.15
 vine==5.1.0
 wcwidth==0.2.12
+=======
+python3-openid==3.2.0
+python-dotenv==1.0.0
+redis==4.6.0
+requests==2.30.0
+requests-oauthlib==1.3.1
+sqlparse==0.4.3
+typing_extensions==4.5.0
+urllib3==1.26.15
+>>>>>>> 01e5779932cb5b80a3b140e4d4d7a2e2d1408720
 whitenoise==6.4.0
