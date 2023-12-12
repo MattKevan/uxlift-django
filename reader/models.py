@@ -1,5 +1,6 @@
 from django.conf import settings
 from django.contrib.auth.models import Group
+from cloudinary.models import CloudinaryField
 from django.db import models
 import feedparser
 import requests  # Make sure you have this line
@@ -160,7 +161,7 @@ class Tool(models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField()
     link = models.URLField()
-    image = models.ImageField(upload_to='tools_images/')
+    image = CloudinaryField('image')
     date = models.DateTimeField(default=timezone.now)
     topics = tagulous.models.TagField(to='Topic')  # Referencing your shared topic model
     body = models.TextField()  # This can be used for the full content of the tool
@@ -170,6 +171,6 @@ class Tool(models.Model):
         if not self.slug:
             self.slug = slugify(self.title)
         super(Tool, self).save(*args, **kwargs)
-        
+
     def __str__(self):
         return self.title

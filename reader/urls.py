@@ -13,5 +13,4 @@ urlpatterns = [
     path('tools/', views.tools, name='tools'),
     path('tools/<slug:tool_slug>/', views.tool_page, name='tool_page'),
 
-
 ]

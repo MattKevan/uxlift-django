@@ -121,4 +121,4 @@ def tools(request):
 # Individual tool page
 def tool_page(request, tool_slug):
     tool = get_object_or_404(Tool, slug=tool_slug)
-    return render(request, 'tool-page.html', {'tool': tool})
+    return render(request, 'reader/tool-page.html', {'tool': tool})
