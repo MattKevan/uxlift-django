@@ -13,6 +13,3 @@ class PostForm(forms.ModelForm):
         model = Post
         fields = ['title', 'url', 'content']
 
-    def __init__(self, *args, **kwargs):
-        super(PostForm, self).__init__(*args, **kwargs)
-        self.helper = FormHelper(self)

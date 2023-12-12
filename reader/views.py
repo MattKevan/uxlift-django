@@ -10,6 +10,7 @@ import requests
 from bs4 import BeautifulSoup
 from django.http import HttpResponse
 from django.db.models import Q
+from urllib.parse import urlparse
 
 @login_required
 def submit_url(request):
@@ -37,21 +38,9 @@ def submit_post(request):
         if form.is_valid():
             new_post = form.save(commit=False)
             new_post.user = request.user
-
-            # get page content
-            response = requests.get(new_post.url)
-            soup = BeautifulSoup(response.text, 'html.parser')
-
-            # get site title, icon, and published date
-            new_post.site_name = soup.find('meta', property='og:site_name')['content'] if soup.find('meta', property='og:site_name') else None
-            new_post.site_title = soup.title.string if soup.title else None
-            new_post.site_icon = soup.find('link', rel='apple-touch-icon')['href'] if soup.find('link', rel='apple-touch-icon') else None
-            new_post.image_path = soup.find('meta', property='og:image')['content'] if soup.find('meta', property='og:image') else None
-            new_post.content = soup.find('meta', property='og:description')['content'] if soup.find('meta', property='og:description') else None
-
             new_post.save()
             messages.success(request, "Thank you for submitting the post.")
-            return redirect('home')  # assuming 'home' is the name of your homepage view
+            return redirect('home')  # Redirect to the home page
     else:
         form = PostForm()
     return render(request, 'reader/submit-post.html', {'form': form})

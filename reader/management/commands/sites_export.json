@@ -1,0 +1,990 @@
+[
+    {
+        "date": "2019-11-05 15:42:25 +0000",
+        "title": "Prototypr",
+        "image": "https://www.uxlift.org/assets/images/prototypr.png",
+        "description": "",
+        "link": "https://blog.prototypr.io",
+        "feed": "https://blog.prototypr.io/feed",
+        "source": [
+            "Publication"
+        ],
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "source": "Organisation",
+        "date": "2020-04-15 14:02:36 +0100",
+        "title": "Think With Google",
+        "description": "",
+        "image": "https://www.uxlift.org",
+        "link": "https://www.thinkwithgoogle.com",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "date": "2020-09-29 09:57:33 +0100",
+        "title": "Product Tribes",
+        "location": [
+            "Online"
+        ],
+        "description": "Expand your network and progress your career – join us on Slack.",
+        "image": "https://www.uxlift.org/assets/images/product-tribes-logo.png",
+        "link": "http://www.product-tribes.com/index.html",
+        "category": [],
+        "site_type": [
+            "Community"
+        ]
+    },
+    {
+        "date": "2020-04-16 10:41:02 +0100",
+        "title": "Cloud Four",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/cloudfour.svg",
+        "link": "https://cloudfour.com/thinks/",
+        "location": null,
+        "clients": null,
+        "site_type": [
+            "UX agency"
+        ]
+    },
+    {
+        "date": "2020-09-29 10:53:11 +0100",
+        "title": "r/UXDesign",
+        "location": [
+            "Online"
+        ],
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/ruxdesign.png",
+        "link": "https://www.reddit.com/r/UXDesign/",
+        "category": [],
+        "site_type": [
+            "Community"
+        ]
+    },
+    {
+        "date": "2020-09-08 09:43:32 +0100",
+        "title": "UX Design Institute",
+        "description": "### Setting the standard in UX education\n\nWe're setting the standard in UX education with university credit-rated, industry-approved online courses.\n\nWe deliver in-depth UX education and certification programmes. \n\nOur goal is to bridge the global skills gap in UX design,   \nand to provide a career pathway for UX designers.\n\n### University credit-rated\n\nAll our courses are university credit-rated. This guarantees a level of academic excellence, and gives students authentic, globally-recognised qualifications.\n\n### Industry collaboration\n\nMembers of our Industry Advisory Council include global leaders in the tech, design and recruitment industries. Their role is to oversee the development of our courses, and ensure they are current, relevant and focused on the skills most needed by employers.",
+        "location": [
+            "Online"
+        ],
+        "course-type": [
+            "_course-types/bootcamps.md"
+        ],
+        "image": "https://www.uxlift.org/assets/images/uxdi-logo.svg",
+        "link": "https://www.uxdesigninstitute.com",
+        "site_type": [
+            "Learning provider"
+        ]
+    },
+    {
+        "location": [
+            "United Kingdom"
+        ],
+        "date": "2020-08-27T11:59:23+01:00",
+        "title": "Norwich University of the Arts",
+        "description": "Norwich University of the Arts (NUA) has established itself in arts, design and media education for over 170 years. But while our history can be traced back to 1845, our outlook is forward-thinking.\n\nFrom a city centre campus that boasts cutting-edge facilities, to an approach to teaching which saw us awarded Gold under the Teaching Excellence Framework and ranked 10th in the UK for teaching quality by _The Times_ and _The Sunday Times Good University Guide 2018_, our reputation for excellence is well-earned.\n\nNUA has thrived as an established University, developing a national reputation as an innovative and creative academic community, with a firm commitment to offering vocational, practice based courses that afford students space to develop their skills and pursue their passion.\n\nAt the heart of it all, our students. Artists, designers, makers. Bringing diverse interests and unique perspectives, they share a desire to be challenged and inspired. To learn from the past and shape the future.",
+        "image": "https://www.uxlift.org/assets/images/nua-logo.svg",
+        "link": "https://www.nua.ac.uk",
+        "course-type": [
+            "_course-types/postgraduate.md",
+            "_course-types/undergraduate.md"
+        ],
+        "site_type": [
+            "Learning provider"
+        ]
+    },
+    {
+        "date": "2019-11-05 15:42:25 +0000",
+        "title": "Dropbox Design",
+        "image": "https://www.uxlift.org/assets/images/dropboxdesign.png",
+        "description": "We believe simple is magic, and business software should be elegant and intuitive—your tools for work should work for you.\n\nWe believe joy is the engine that powers all the best ideas. So we’re designing a way of working that makes space for it, removing the distractions, interruptions, and frustrations that get in the way.\n\nWe believe it’s important to connect all the dots. We design Dropbox to seamlessly integrate with the tools you already use, so everything—and everyone—plays well together.",
+        "link": "https://dropbox.design/",
+        "source": [
+            "UX team"
+        ],
+        "site_type": [
+            "UX team"
+        ]
+    },
+    {
+        "source": "Company blog",
+        "date": "2020-04-16 10:32:03 +0100",
+        "title": "Optimal Workshop",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/optimalworkshop.svg",
+        "link": "https://blog.optimalworkshop.com",
+        "site_type": [
+            "Software provider"
+        ]
+    },
+    {
+        "date": "2020-09-29 10:00:26 +0100",
+        "title": "The Designership",
+        "location": [
+            "Online"
+        ],
+        "description": "### Chat with over 2,800 creatives\n\n##### PLENTY TO SHARE YOUR EXPERIENCES WITH.\n\nYes, we have a couple of thousand members but what’s more important is the sense of belonging. The Designership is much more than just a chatroom.\n\n### Be part of a community\n\n##### A COMMUNITY YOU CAN RELY ON.\n\nCreate, share, discuss, and learn from being connected with like-minded individuals all with a passion for design & creating.\n\n### Jobs, competitions & more..\n\n##### SUPPORTING YOU THROUGHOUT.\n\nJoin a network with real people looking for real designers & developers. Be apart of our competitions to win yourself some fantastic prizes, ranging from Designership swag to free software.",
+        "image": "https://www.uxlift.org/assets/images/designership.jpg",
+        "link": "https://thedesignership.com",
+        "category": [],
+        "site_type": [
+            "Community"
+        ]
+    },
+    {
+        "location": [
+            "France",
+            "Portugal",
+            "Brazil",
+            "Germany",
+            "Mexico",
+            "Netherlands",
+            "United States",
+            "Spain",
+            "Online"
+        ],
+        "date": "2020-08-27T14:32:44+01:00",
+        "title": "Ironhack",
+        "description": "### Why should you study at Ironhack?\n\n#### Transform Your Career\n\nWhether you need to get a job in tech or launch your own business, Ironhack will help you achieve your goals.\n\n#### Access a Global Network\n\nJoin a global network of +5000 graduates and professionals across our 9 campuses around the world.\n\n#### Learn by Creating\n\nLearn by working on amazing projects using the tools and workflows you'll encounter in a real work environment.\n\n#### Outcomes First\n\nOur graduates get hired in less than 3 months through our +600 international network of hiring partners.",
+        "image": "https://www.uxlift.org/assets/images/iron-hack.svg",
+        "link": "https://www.ironhack.com/",
+        "course-type": [
+            "_course-types/bootcamps.md"
+        ],
+        "site_type": [
+            "Learning provider"
+        ]
+    },
+    {
+        "source": "Organisation",
+        "date": "2020-04-16 10:45:09 +0100",
+        "title": "Princeton WebTAP",
+        "description": "",
+        "image": "https://www.uxlift.org",
+        "link": "https://webtap.princeton.edu/publications/",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "source": "Publication",
+        "date": "2020-08-20 14:13:05 +0100",
+        "title": "Apple and Banana",
+        "description": "Everyone can become a great researcher. We make the journey easier.\n\nApple & Banana is a growing library of resources and was created in 2018 with two main goals:\n\n1. To not dumb down research\n2. To make research accessible for everyone\n\nWhy can’t good research content be accessible and smart?\n\nThat’s why we decided to build Apple & Banana: a place where anyone can become a fruitful researcher.",
+        "image": "https://www.uxlift.org/assets/images/applebanana.jpg",
+        "link": "http://www.appleandbanana.org/",
+        "feed": "http://www.appleandbanana.org/application/rss.xml",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "date": "2020-09-28 14:23:04 +0100",
+        "title": "Mixed Methods",
+        "location": [
+            "Online"
+        ],
+        "description": "Expect to test assumptions, examine methods, and engage in some old fashion At Mixed Methods, we indulge and celebrate curiosity. We aim to provide curated content to anyone interested in the hows and whys of user experience research. \n\nFrom theoretical discussions, through to hands-on advice on tools and methodologies, we're here to provide an honest, open, and reputable source of information for research experts and novices alike.",
+        "image": "https://www.uxlift.org/assets/images/mixed-methods.png",
+        "link": "https://www.mixed-methods.org",
+        "category": [
+            "User research"
+        ],
+        "site_type": [
+            "Community"
+        ]
+    },
+    {
+        "source": "UX team",
+        "date": "2020-04-16 11:56:15 +0100",
+        "title": "Shopify UX",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/shopify.svg",
+        "link": "https://ux.shopify.com",
+        "site_type": [
+            "UX team"
+        ]
+    },
+    {
+        "source": "UX team",
+        "date": "2020-04-16 12:01:02 +0100",
+        "title": "Airbnb Design",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/airbnb.svg",
+        "link": "https://airbnb.design",
+        "site_type": [
+            "UX team"
+        ]
+    },
+    {
+        "category": [],
+        "course": "Short course",
+        "title": "Interaction Design Foundation",
+        "description": "#### Online Design Courses\n\nLessons are self-paced so you’ll never miss a class.\n\n#### UX Master Classes\n\nWebinars that constantly update your design skills and knowledge.\n\n#### UX Bootcamps\n\nGet a job in design with mentor-led sessions.\n\nWith 86,929 graduates, the Interaction Design Foundation is the **biggest online design school globally**. We were founded in 2002.\n\nWe’re market leaders in online design education because the world’s leading experts create our content and because we’re **specialized in design**. Our courses cover the entire spectrum of UX design from beginner to advanced.\n\nOur Course Certificates are **trusted by industry leaders** such as IBM and Adobe who train their teams with our courses. Universities such as MIT and the University of Cambridge include our material in their curricula.\n\nWe’ve created the world’s biggest and **most authoritative library** of open-source UX Design literature with such noted authors as Don Norman and Clayton Christensen.",
+        "link": "https://www.interaction-design.org",
+        "qualification": "Accredited certificate",
+        "cost": "",
+        "location": [
+            "Online"
+        ],
+        "image": "https://www.uxlift.org/assets/images/interaction-design-foundation.svg",
+        "organisation": "",
+        "course-type": [
+            "_course-types/short-courses.md"
+        ],
+        "length": "",
+        "date": "2020-08-27T11:36:14+01:00",
+        "level": "",
+        "site_type": [
+            "Learning provider"
+        ]
+    },
+    {
+        "date": "2020-04-15 11:55:14 +0100",
+        "title": "Design With Figma",
+        "image": "https://www.uxlift.org/assets/images/dwf.png",
+        "description": "",
+        "link": "https://medium.com/design-with-figma",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "date": "2020-09-01 15:07:20 +0100",
+        "title": "LinkedIn Learning",
+        "description": "### Prove your skills\n\nEarn certificates to add to your LinkedIn profile.\n\n### Learn on your time\n\nWatch bite-sized videos or in-depth courses.",
+        "location": [
+            "Online"
+        ],
+        "course-type": [
+            "_course-types/short-courses.md"
+        ],
+        "image": "https://www.uxlift.org/assets/images/linkedin.png",
+        "link": "https://www.linkedin.com/learning",
+        "site_type": [
+            "Learning provider"
+        ]
+    },
+    {
+        "source": "Publication",
+        "date": "2020-04-15 17:24:26 +0100",
+        "title": "Design Systems",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/designsystems.png",
+        "link": "https://publication.design.systems",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "source": "Publication",
+        "date": "2020-04-16 09:32:22 +0100",
+        "title": "UX Planet",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/uxp-1.png",
+        "link": "https://uxplanet.org",
+        "feed": "https://uxplanet.org/feed",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "source": "Personal blog",
+        "date": "2020-04-15 14:23:22 +0100",
+        "title": "Suleyn Yu",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/suleyn.jpeg",
+        "link": "https://medium.com/@suelynyu",
+        "site_type": []
+    },
+    {
+        "source": "Company blog",
+        "date": "2020-04-15 17:05:00 +0100",
+        "title": "Noteworthy",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/noteworthy.png",
+        "link": "https://blog.usejournal.com",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "source": "Publication",
+        "date": "2020-04-15 14:15:41 +0100",
+        "title": "CSS Tricks",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/csstricks.png",
+        "link": "https://css-tricks.com",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "location": [
+            "Singapore",
+            "France",
+            "United Kingdom",
+            "United States",
+            "Australia",
+            "Online"
+        ],
+        "date": "2020-08-27T14:27:28+01:00",
+        "title": "General Assembly",
+        "description": "Since 2011, General Assembly has transformed tens of thousands of careers through pioneering, experiential education in today’s most in-demand skills. When you learn web development, data, design, business, and more with GA, you get:\n\n1. Award-winning curriculum and expert instructors, on campus and online.\n2. A global, professional community of 40,000-plus full- and part-time alumni.\n3. Career results from leading-edge courses, with mentorship each step of the way.",
+        "image": "https://www.uxlift.org/assets/images/general-assembly.svg",
+        "link": "https://generalassemb.ly",
+        "course-type": [
+            "_course-types/bootcamps.md"
+        ],
+        "site_type": [
+            "Learning provider"
+        ]
+    },
+    {
+        "date": "2021-02-09 10:47:39 +0100",
+        "title": "Baymard Institute",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/uie.png",
+        "link": "https://www.baymard.com",
+        "feed": "https://feeds.baymard.com/baymard",
+        "site_type": [
+            "UX agency"
+        ]
+    },
+    {
+        "source": "Publication",
+        "date": "2020-04-15 14:06:36 +0100",
+        "title": "Design + Sketch",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/designsketch.png",
+        "link": "https://medium.com/sketch-app-sources",
+        "feed": "https://medium.com/feed/sketch-app-sources",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "source": "Publication",
+        "date": "2020-04-15 17:21:32 +0100",
+        "title": "UX Booth",
+        "description": "Our readership consists mostly of beginning-to-intermediate user experience and interaction designers, but anyone interested in making the web a better place to be is welcome. \n\nIf you’re interested, join us and discuss best practices and trending topics, or share your experiences.",
+        "image": "https://www.uxlift.org/assets/images/uxbooth-1.svg",
+        "link": "https://www.uxbooth.com",
+        "feed": "http://uxbooth.com/rss",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "date": "2020-09-08 14:18:20 +0100",
+        "title": "UXmentor.me",
+        "location": [],
+        "description": "### UX mentoring\n\nOnline UX mentoring for those in their first UX job.\n\n* Your own individual mentor\n* Personalised mentoring plan\n* Advice when you need it\n\n### UX Career Booster\n\nProjects to teach new UX Designers how to deliver great experiences in the real world of work.\n\n* Real experience for your portfolio\n* Deal with tricky stakeholders\n* Deliver user research on a budget",
+        "image": "https://www.uxlift.org/assets/images/uxmentorme-black-4x-png.webp",
+        "link": "https://uxmentor.me",
+        "site_type": [
+            "Jobs board"
+        ]
+    },
+    {
+        "date": "2020-09-28 14:17:04 +0100",
+        "title": "Northern User Experience",
+        "location": [
+            "United Kingdom"
+        ],
+        "description": "### A bit about NUX\n\nWe’re a group of enthusiasts who like to get together to talk about anything and everything to do with the user experience – sharing knowledge, sparking ideas and supporting each other.\n\nWe’re non-charging, non-profiteering, non-egomaniacal, friendly, normal people who like informal, sociable meetings that give us something to think about.\n\n### Come along to…\n\n…our regular monthly and bi-monthly meetings. They are held in cities up and down the M62: Manchester, Liverpool, Leeds, Newcastle and our newest group in York.\n\nThese meetings are completely free and open to anyone who’s interested in user experience, whatever work you do or discipline you study. And if you’d like to speak at one, you’re very welcome – we want to encourage as many people as possible to take part.\n\n### Why not try our…\n\n…[NUX conference](http://nuxconf.uk/). Our annual conference is growing in numbers and in influence – we run it right here in the North, finding national and international speakers who want to share what they have learned. It’s big and exciting, and it’s just as friendly as our monthly get-togethers",
+        "image": "https://www.uxlift.org/assets/images/nux.png",
+        "link": "https://nuxuk.org/",
+        "site_type": [
+            "Community"
+        ]
+    },
+    {
+        "source": "Publication",
+        "date": "2020-04-15 14:13:05 +0100",
+        "title": "Smashing Magazine",
+        "description": "We care about **quality content**. We never wanted to be a big publishing house: Our team is small, but it’s a truly wonderful team of people who _really_ care about what they do. Passionate and dedicated. Honest and respectful. Professional but informal. Quirky and personal.",
+        "image": "https://www.uxlift.org/assets/images/smashing.png",
+        "link": "https://www.smashingmagazine.com/",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "source": "Organisation",
+        "date": "2020-04-15 17:01:42 +0100",
+        "title": "Design Council",
+        "description": "We are an independent charity and the government’s advisor on design. \n\nOur vision is a world where the role and value of design is recognised as a fundamental creator of value, enabling happier, healthier and safer lives for all. \n\nThrough the power of design, we make better processes, better products, better places, all of which lead to better performance.",
+        "image": "https://www.uxlift.org/assets/images/designcouncil.svg",
+        "link": "https://www.designcouncil.org.uk",
+        "site_type": [
+            "Professional body"
+        ]
+    },
+    {
+        "source": "Company blog",
+        "date": "2020-04-16 10:48:31 +0100",
+        "title": "ThoughtWorks",
+        "description": "We are committed to improving the tech industry and are passionate about sharing our expertise across technology, business, and culture.\n\nFrom deep technical topics to current business trends, our articles, blogs, podcasts and event material has you covered.",
+        "image": "https://www.uxlift.org/assets/images/thoughtworks.jpg",
+        "link": "https://www.thoughtworks.com/insights",
+        "site_type": [
+            "UX agency"
+        ]
+    },
+    {
+        "date": "2020-04-16 10:47:39 +0100",
+        "title": "UIE",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/uie.png",
+        "link": "https://articles.uie.com",
+        "feed": "https://articles.uie.com/feed/",
+        "site_type": [
+            "UX agency"
+        ]
+    },
+    {
+        "source": "Organisation",
+        "date": "2020-04-15 14:04:11 +0100",
+        "title": "Sitepoint",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/sitepoint.png",
+        "link": "https://www.sitepoint.com/blog/",
+        "site_type": [
+            "UX agency"
+        ]
+    },
+    {
+        "title": "UX Mastery",
+        "description": "",
+        "link": "https://uxmastery.com",
+        "source": "Publication",
+        "image": "https://www.uxlift.org/assets/images/ux-mastery.png",
+        "date": "2020-08-27T11:59:23+01:00",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "date": "2020-09-29 10:55:26 +0100",
+        "title": "The Interaction Design Association",
+        "location": [],
+        "description": "IxDA was incorporated in 2005 to address the needs of the then-emergent field of interaction design. In the intervening years, interaction design has grown as a industry and an area of study, at the same time the recognition of its value in the creation of great products has grown.\n\nWe were the first community for those interested in the practice of interaction design, and now we are the largest, with over 200 local groups and more than 100,000 individuals globally. We are driven by a passion for design, and a belief that our practice of interaction design can make the world a better place. Through local meetups to global events and initiatives, this community comes together to connect, to advance our professional craft and improve our shared human condition through that effort.",
+        "image": "https://www.uxlift.org/assets/images/ixda.jpeg",
+        "link": "https://ixda.org",
+        "category": [
+            "Interaction design"
+        ],
+        "site_type": [
+            "Professional body"
+        ]
+    },
+    {
+        "source": "Personal blog",
+        "date": "2021-03-01T16:12:43+00:00",
+        "title": "Matt Kevan",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/kevan.gif",
+        "link": "https://www.kevan.tv",
+        "site_type": []
+    },
+    {
+        "source": "Organisation",
+        "date": "2020-04-16 10:36:42 +0100",
+        "title": "Usability.gov",
+        "description": "",
+        "image": "https://www.uxlift.org",
+        "link": "https://www.usability.gov",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "source": "Company blog",
+        "date": "2020-04-15 14:17:57 +0100",
+        "title": "InVision",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/inv.png",
+        "link": "https://www.invisionapp.com/inside-design",
+        "site_type": [
+            "Software provider"
+        ]
+    },
+    {
+        "date": "2020-04-15 11:58:01 +0100",
+        "title": "UX For the Masses",
+        "image": "https://www.uxlift.org/assets/images/uxm.png",
+        "description": "A former techy turned UX Jedi, for over 15 years I’ve been harnessing the power of user-centred design to deliver compelling and successful user experiences. I have a Human-Computer Interaction MSc (Distinction) from [University College London](https://www.ucl.ac.uk/) along with a Computer Science BSc (First Class) from the [University of Warwick](https://warwick.ac.uk/).\n\nI’m currently a product designer at [Redgate software](https://www.red-gate.com/). Previously I have led the UX for projects at [CashFlows](https://www.cashflows.com/) (a fintech start-up), [AstraZeneca](https://www.astrazeneca.com/) (a biopharmaceutical company), [ProQuest](http://www.proquest.com/) (a content & technology company), [Omobono](http://www.omobono.com/) (a specialist B2B digital agency), [TUI](http://www.tuitravelplc.com/) (Europe’s largest holiday tour operator), [johnlewis.com](http://www.johnlewis.com/)(a leading UK ecommerce website), [Cambridge Assessment](http://www.cambridgeassessment.org.uk/) (an international exams group) and been a UX consultant for [Webcredible](http://www.webcredible.co.uk/) (an industry leading UX consultancy) and a full service digital agency.\n\nI currently live in Cambridge in the UK with my wife and two children.",
+        "link": "http://www.uxforthemasses.com",
+        "feed": "http://www.uxforthemasses.com/feed/",
+        "source": [
+            "Personal blog"
+        ],
+        "site_type": []
+    },
+    {
+        "date": "2021-03-11 14:11:14 +0100",
+        "title": "Jeff Gothelf",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/gothelf.png",
+        "link": "https://www.jeffgothelf.com/feed",
+        "site_type": []
+    },
+    {
+        "date": "2020-09-30 10:20:16 +0100",
+        "title": "DesignX",
+        "location": [
+            "Online"
+        ],
+        "description": "#### Curating experiences for our community\n\nWe intend to bring together all design disciplines at the intersection of business, design and technology. Beyond our local chapter events, workshops and webinars, we also organize a few annual conferences.",
+        "image": "https://www.uxlift.org/assets/images/designx.webp",
+        "link": "https://designx.community/",
+        "category": [],
+        "site_type": [
+            "Jobs board",
+            "Community"
+        ]
+    },
+    {
+        "source": "Company blog",
+        "date": "2020-04-16 10:43:09 +0100",
+        "title": "Shopify",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/shopify.svg",
+        "link": "https://www.shopify.com/partners/blog",
+        "site_type": [
+            "Software provider"
+        ]
+    },
+    {
+        "date": "2020-09-28 17:17:06 +0100",
+        "title": "User Defenders: Community",
+        "location": [
+            "Online"
+        ],
+        "description": "### What is User Defenders: Community?\n\n#### A place to connect, grow, and inspire.\n\nThis is a safe gathering place for new and seasoned designers in all areas of UX to connect with others, ask questions, share knowledge, & offer inspiration to help us not grow weary in our important mission of fighting for our users...and changing the world one UX design at a time!\n\n***\n\n### Why You Should Join\n\n* **Meet other like-minded Defenders who live near you**, share your interests, and who are also passionate about UX Design & personal growth, and how you can't have a truly great one without the other!\n* **Ask questions about current design or career struggles**, and receive super-helpful, empathic advice and feedback\n* **Experience thought-provoking conversations**, stories, and perspectives from other inspiring UX superheroes\n* **Connect and converse** with your host (Jason Ogle) personally",
+        "image": "https://www.uxlift.org/assets/images/user-defenders.webp",
+        "link": "https://community.userdefenders.com",
+        "category": [],
+        "site_type": [
+            "Community"
+        ]
+    },
+    {
+        "date": "2020-09-29 13:10:07 +0100",
+        "title": "User Experience Professionals Association",
+        "location": [
+            "Global"
+        ],
+        "description": "Founded in 1991, the original 50-member group has grown to serve a community that includes nearly 2,400 members worldwide by promoting UX concepts and techniques through our annual international conference, publishing new UX findings through both the Journal of Usability Studies (JUS) and User Experience Magazine, and our 59 local chapters in 30 countries around the world.\n\n#### Our goals include:\n\n* Serve as the authoritative source on the practice of usability, user-centered design (UCD), and UX.\n* Facilitate professional development and education within the UX field.\n* Promote the business value of UX, research, design and evaluation to business and other entities.\n* Foster a community of user experience professionals through knowledge sharing and networking.\n* Provide effective industry governance.\n* Enhance and provide the value of membership in UXPA International.\n\n#### Membership in UXPA International\n\nUXPA International offers [membership](https://uxpa.org/membership-comparison) to anyone who researches, designs and evaluates the user experience.",
+        "image": "https://www.uxlift.org/assets/images/uxpa.png",
+        "link": "",
+        "category": [],
+        "site_type": [
+            "Professional body"
+        ]
+    },
+    {
+        "date": "2020-09-28 14:27:44 +0100",
+        "title": "Designer Hangout",
+        "location": [
+            "Online"
+        ],
+        "description": "Designer Hangout is a dedicated, invite-only network of UX designers and researchers who discuss trends, give advice, share stories, uncover insights, surface opportunities, and connect in-person. \n\nAs a UX practitioner, Designer Hangout is your \"secret weapon\" to progressing your career and accomplishing your life goals. Together, we’re creating the World's most reliable brain trust for UX designers in a fast-paced age.\n\n#### Real-Time Chat\n\nGet answers to your burning questions in real-time. Over 1,000,113 messages sent.\n\n#### Influencer Q&As\n\nSpeak with design influencers and authors in Q&A sessions every couple weeks.\n\n#### Job Board\n\nFind the right job opportunities to push your career ahead and make a positive impact.\n\n#### Newsletter\n\nGet high-quality design articles delivered to your inbox and invitations to Q&A sessions.\n\n#### Local Events\n\nParticipate in local events and meet fellow UX practitioners in your city.\n\n#### Mentorship\n\nFind a mentor or become a mentor and help fellow UX designers and researchers.",
+        "image": "https://www.uxlift.org/assets/images/designer-hangout.jpg",
+        "link": "https://www.designerhangout.co",
+        "category": [],
+        "site_type": [
+            "Community"
+        ]
+    },
+    {
+        "date": "2020-09-28 14:49:38 +0100",
+        "title": "Iterate UX",
+        "location": [
+            "Online"
+        ],
+        "description": "IterateUX is an online community with User Experience professionals (UX, UI, Researchers, UX Managers, and Recruiters)with members from around the world.\n\nOur community offers a great place to grow your skills, challenge yourself, network, find mentorship or become a mentor and help you gain the tools to achieve your goals. Our focus is to help you achieve your User Experience goals professionally and personally-we’re all about you!\n\n### Weekly meetings\n\nAt our weekly meetings we have exciting speakers with interesting topics regarding UX design, career advice, methods and motivation.\n\nWho knows, maybe you could be one of our future speakers!\n\n### Design Challenge\n\nA fun and practical challenge that gives members the opportunity to collaborate in a team on a project with a limited timeframe.\n\n### Mentorship\n\nOur mentorship program is linked with our design challenge and let’s mentors do what they do best- guide and assist groups through their project.\n\n### Resume review\n\nOne of our special events is our resume review! Our resume review can help you stand out to recruiters & hiring managers & assist you in your career goals.\n\n### Portfolio review\n\nPortfolio review is another one of our special events where a talented designer reviews portfolios live and and provides constructive feedback and insights.\n\n### Happy Hour Friday\n\nOn the last Friday of each month we host an extra special event where the only goal is to have fun! We want you to use this time to wind down, get to know each other and network!",
+        "image": "https://www.uxlift.org/assets/images/iterateux.png",
+        "link": "https://iterateux.com",
+        "category": [],
+        "site_type": [
+            "Community"
+        ]
+    },
+    {
+        "date": "2020-10-15 17:21:32 +0100",
+        "title": "UX Magazine",
+        "description": "UX Magazine is a free community resource exploring all facets of experience design. We work closely with practitioners and industry leaders versed in all areas of UX to provide a steady stream of engaging and useful content.",
+        "image": "https://www.uxlift.org/assets/images/uxmag.com.png",
+        "link": "https://uxmag.com",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "date": "2020-04-15T16:12:43+00:00",
+        "title": "Brad Frost",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/atomic-1.png",
+        "link": "https://www.bradfrost.com",
+        "feed": "https://feeds.feedburner.com/brad-frosts-blog",
+        "site_type": []
+    },
+    {
+        "date": "2020-09-29 14:59:16 +0100",
+        "title": "UX Jobs Board",
+        "location": [
+            "Online"
+        ],
+        "description": "World-class organisations post their jobs on UX Jobs Board – Harvard, Sony, Yahoo, BBC, Intel, as well as many other smaller or start-up companies.\n\n### Looking for your next UX role?\n\nSubmit your UX resume to raise your profile in a worldwide UX community. UX designers, Service Designers, Information Architects, Content Strategists, UX Researchers, UI Designers, Visual Designers, UX Developers and many other UX professionals have profiles on UX Jobs Board.",
+        "image": "https://www.uxlift.org/assets/images/ux-jobs-board.png",
+        "link": "https://www.uxjobsboard.com/",
+        "category": [],
+        "site_type": [
+            "Jobs board"
+        ]
+    },
+    {
+        "date": "2020-09-29 10:04:01 +0100",
+        "title": "Design Buddies",
+        "location": [
+            "Online"
+        ],
+        "description": "#### Mentorship programs\n\nWe'll pair you up with a mentor that will help you pave your career path.\n\n#### Online workshops\n\nWe'll have workshops to help you advance in your design journey.\n\n#### Virtual meetups\n\nMeet other designers from around the world.\n\n#### Ask me anything (AMA)\n\nAsk design indutry leaders about their career.\n\n#### Portfolio reviews\n\nGet your portfolio reviewed by experienced designers in industry.\n\n#### and so much more...!\n\nDid we mention that all of this is free?",
+        "image": "https://www.uxlift.org/assets/images/design-buddies.jpg",
+        "link": "https://designbuddies.community",
+        "category": [],
+        "site_type": [
+            "Community"
+        ]
+    },
+    {
+        "source": "UX team",
+        "date": "2020-04-16 12:22:01 +0100",
+        "title": "Facebook Design",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/fb.png",
+        "link": "https://facebook.design",
+        "site_type": [
+            "UX team"
+        ]
+    },
+    {
+        "date": "2020-09-28 14:44:08 +0100",
+        "title": "Hexagon",
+        "location": [
+            "Online"
+        ],
+        "description": "A community of 7000+ womxn and non-binary folx.\n\nWe believe in fostering relationships both online and offline. There is no formal membership required to join Hexagon. Connect with your local Hexagon chapter, apply for the mentorship program or join us in our global Slack group.\n\nParticipate in conversations about all things UX— from portfolio reviews to sharing research discussions to learning about leadership and various career paths and more.",
+        "image": "https://www.uxlift.org/assets/images/hexagon.png",
+        "link": "http://hexagonux.com/",
+        "category": [],
+        "site_type": [
+            "Community"
+        ]
+    },
+    {
+        "source": "Company blog",
+        "date": "2020-04-15 14:09:00 +0100",
+        "title": "Abstract",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/abstract.png",
+        "link": "https://www.abstract.com/blog/",
+        "site_type": [
+            "Software provider"
+        ]
+    },
+    {
+        "date": "2020-09-30 09:57:30 +0100",
+        "title": "UXswitch",
+        "location": [
+            "Global"
+        ],
+        "description": "#### Visit the world's first Humanised Job Board\n\nWe've got UX director, researcher and designer jobs galore.\n\n#### Get UX career advice from our experts\n\nTips on interview techniques, choosing the right culture to join & more.",
+        "image": "https://www.uxlift.org/assets/images/uxswitch.png",
+        "link": "https://www.uxswitch.com",
+        "category": [],
+        "site_type": [
+            "Jobs board"
+        ]
+    },
+    {
+        "location": "United Kingdom",
+        "date": "2020-08-26T09:57:34+01:00",
+        "title": "Loughborough University",
+        "description": "That’s why we have been named University of the Year at the Whatuni? Student Choice Awards 2020. The Awards are based on reviews and ratings made by current students across the UK, so winning this award shows that our students are extremely satisfied with the services and experience we provide them with.\n\nThis isn’t the first time we’ve won the prestigious accolade either. We were also named University of the Year by the WhatUni? Awards in 2015 and again in 2018. We’ve also been named University of the Year in the Times and Sunday Times Good University Guide twice.",
+        "image": "https://www.uxlift.org/assets/images/loughborough.png",
+        "link": "https://www.lboro.ac.uk/",
+        "course-type": [
+            "_course-types/undergraduate.md",
+            "_course-types/postgraduate.md"
+        ],
+        "site_type": [
+            "Learning provider"
+        ]
+    },
+    {
+        "source": "UX team",
+        "date": "2020-04-16 14:52:38 +0100",
+        "title": "Government Digital Service",
+        "description": "We’re a centre of excellence in digital, technology and data, collaborating with departments to help them with their own transformation. We work with them to build platforms, standards, and digital services.\n\nWe always start with [user needs](https://www.gov.uk/service-manual/user-centred-design/user-needs.html). We are [agile](https://gds.blog.gov.uk/2015/06/30/outcomes-not-deliverables/). We work to a set of [Design Principles](https://www.gov.uk/design-principles) that guide us in everything we do.\n\nWe believe in working openly, because [making things open makes them better](https://www.gov.uk/design-principles#tenth).\n\nWe run [GOV.UK](https://www.gov.uk/), the best place to find government services and information. It began as an alpha, [built in just 10 weeks](https://gds.blog.gov.uk/2011/07/29/alpha-gov-uk-wrap-up/), and has grown to become [part of our national digital infrastructure](https://gds.blog.gov.uk/2015/11/20/2-billion-and-counting/). It's always being improved in response to user research and user feedback.",
+        "image": "https://www.uxlift.org/assets/images/gov.svg",
+        "link": "https://gds.blog.gov.uk",
+        "site_type": []
+    },
+    {
+        "image": "https://www.uxlift.org",
+        "description": "### Find your people\n\nJoin more than 8,000 content and content-adjacent professionals who support each other, share knowledge and understanding, and help shape the field of content strategy.",
+        "date": "2020-09-28 14:32:47 +0100",
+        "link": "https://contentandux.org",
+        "location": [
+            "Online"
+        ],
+        "title": "Content + UX",
+        "category": [
+            "UX writing",
+            "Content strategy"
+        ],
+        "site_type": []
+    },
+    {
+        "source": "Publication",
+        "date": "2020-04-15 14:22:29 +0100",
+        "title": "Dear Design Student",
+        "description": "",
+        "image": "https://www.uxlift.org",
+        "link": "https://deardesignstudent.com",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "source": "UX team",
+        "date": "2020-04-16 12:05:50 +0100",
+        "title": "Design at Monzo",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/Monzo.svg",
+        "link": "https://monzo.com/design/",
+        "site_type": [
+            "UX team"
+        ]
+    },
+    {
+        "source": "Publication",
+        "date": "2020-08-20 14:13:05 +0100",
+        "title": "A List Apart",
+        "description": "We began as a mailing list in 1997 and launched this website in 1998. You can visit the ghosts of ALA past by reading our history.",
+        "image": "https://www.uxlift.org/assets/images/a list apart.jpg",
+        "link": "https://alistapart.com/",
+        "feed": "https://alistapart.com/main/feed",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "location": [
+            "Online"
+        ],
+        "date": "2020-08-27T14:02:39+01:00",
+        "title": "Career Foundry",
+        "description": "CareerFoundry is a diverse global community of over 300 educational experts, career specialists, mentors and tutors, united in the belief that, given the right tools, anyone can develop the skills they need to build a career they love.\n\nTo us, this means more than a job-title change and a salary increase. We go further to ensure our students forge careers which afford them purpose, autonomy and creativity—ultimately landing jobs which genuinely improve their quality of life. This is what drives us to keep honing and perfecting everything we do, every day.\n\nWe know how technology can enrich the educational experience of our students—but we also know that it’s the human relationships which really make the difference. With our unparalleled level of support and superior curricula, we’ve set out to prove that online study can be more personal, more engaging and more effective than in-person study—and that, with the right support, no one gets left behind.\n\nOur graduates get hired. For every job landed, every life changed, we come to work with ever more spring in our step. Each student takes their own unique journey, but the outcome is universal: a more fulfilling career—and a skills gap that’s just that little bit smaller.",
+        "image": "https://www.uxlift.org/assets/images/career-foundry.png",
+        "link": "https://careerfoundry.com/",
+        "course-type": [
+            "_course-types/bootcamps.md"
+        ],
+        "site_type": []
+    },
+    {
+        "source": "Organisation",
+        "date": "2020-04-16 09:33:20 +0100",
+        "title": "Nielsen Norman Group",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/nielsen-1.png",
+        "link": "https://www.nngroup.com/articles",
+        "feed": "https://www.nngroup.com/feed/rss/",
+        "site_type": [
+            "UX agency"
+        ]
+    },
+    {
+        "date": "2020-11-17 09:32:14 +0000",
+        "title": "DesignerUp",
+        "location": [
+            "Online"
+        ],
+        "description": "## Here to guide your learning journey\n\nAt DesignerUp School we share content and resources to help you learn UI/UX and digital product design. From our free webinar trainings, in-depth how to articles, product design podcast and paid courses, there is something to support everyone at any stage of your learning journey.\n\n### For Explorers\n\nExplore UI/UX and product design with our how-to articles, free webinars, podcasts, design tips, professional tricks and industry news.\n\n### For Self-Learners\n\nWant to learn UI/UX and product design from scratch or deepen your existing design knowledge on your own? Check out our on-demand, self-guided video course.\n\n### For Career Changers\n\nReady to become a master practitioner of UI/UX and product design? Our instructor-led Product Design Master Course is the thing for you!",
+        "image": "https://www.uxlift.org/assets/images/designerup.png",
+        "link": "https://designerup.co",
+        "category": [],
+        "site_type": [
+            "Learning provider"
+        ]
+    },
+    {
+        "category": [],
+        "course": "Short course",
+        "title": "Udemy",
+        "description": "### The leading global marketplace for learning and instruction\n\nBy connecting students all over the world to the best instructors, Udemy is helping individuals reach their goals and pursue their dreams.\n\n### Our global reach\n\nUdemy is the leading global marketplace for teaching and learning, connecting millions of students to the skills they need to succeed.\n\n### Staying ahead of the future of work\n\nUdemy helps organizations of all kinds prepare for the ever-evolving future of work. Our curated collection of top-rated business and technical courses gives companies, governments, and nonprofits the power to develop in-house expertise and satisfy employees’ hunger for learning and development.",
+        "link": "https://www.udemy.com",
+        "qualification": "Accredited certificate",
+        "cost": "",
+        "image": "https://www.uxlift.org/assets/images/udemy.png",
+        "location": [
+            "Online"
+        ],
+        "organisation": "",
+        "level": "",
+        "course-type": [
+            "_course-types/short-courses.md"
+        ],
+        "length": "",
+        "date": "2020-08-27T15:13:28+01:00",
+        "site_type": [
+            "Learning provider"
+        ]
+    },
+    {
+        "title": "Creative Bloq",
+        "description": "We bring the very best creative work to our audience and offer the insight that enables them to keep up to date with the latest trends and developments in global design and to create their best work.",
+        "link": "https://www.creativebloq.com",
+        "image": "https://www.uxlift.org/assets/images/creative-bloq.svg",
+        "date": "2020-08-27T11:59:23+01:00",
+        "site_type": [
+            "Publication"
+        ]
+    },
+    {
+        "location": "United Kingdom",
+        "date": "2020-08-26T09:55:53+01:00",
+        "title": "University of Brighton",
+        "description": "Our ethos is defined by four core values:\n\n* inclusivity\n* sustainability\n* creativity\n* partnership\n\nOur students are part of a dynamic, diverse and creative community that embraces partnership working and that makes a positive difference to society.",
+        "image": "https://www.uxlift.org/assets/images/brighton.png",
+        "link": "https://www.brighton.ac.uk/",
+        "course-type": [
+            "_course-types/undergraduate.md",
+            "_course-types/postgraduate.md"
+        ],
+        "site_type": [
+            "Learning provider"
+        ]
+    },
+    {
+        "date": "2020-09-29 10:48:40 +0100",
+        "title": "Women in Technology",
+        "location": [
+            "Online"
+        ],
+        "description": "**Not a programmer? That’s fine!** Our group does not exclude people who work in technical writing, software testing and QA, graphic design, user experience, project management, customer support, or other areas that are sometimes invisible in the discourse on women in tech.",
+        "image": "https://www.uxlift.org",
+        "link": "https://witchat.github.io",
+        "category": [],
+        "site_type": [
+            "Community"
+        ]
+    },
+    {
+        "course": "Short course",
+        "title": "Kingston University London",
+        "description": "### Did you know?\n\n* Kingston University is ranked in the UK's top 50 in the 2020 Guardian University Guide\n* Top in the UK for design and crafts\n* Top in London for nursing and midwifery, run jointly with St George's, University of London\n* Kingston University is a top 10 London University and is ranked in the top 200 young universities in the world.\n* Kingston School of Art's fashion degree among best in the world in Business of Fashion listings\n* We have 13,105 home/European students, and 3,680 overseas students from more than 140 countries.\n* 95% of our graduates are in work or further study six months after of graduating.\n* 60% of the University's research submission was rated as world-leading or internationally excellent in REF 2014.",
+        "link": "https://www.kingston.ac.uk/",
+        "location": [
+            "United Kingdom"
+        ],
+        "image": "https://www.uxlift.org/assets/images/kingston.png",
+        "course-type": [
+            "_course-types/undergraduate.md",
+            "_course-types/postgraduate.md"
+        ],
+        "date": "2020-08-27T11:59:23+01:00",
+        "site_type": [
+            "Learning provider"
+        ]
+    },
+    {
+        "date": "2020-09-01 12:54:32 +0100",
+        "title": "Design+Code",
+        "description": "Premium downloads, Priority support, Discounts. Over 70 hours of course content. Cancel Anytime.",
+        "location": [
+            "Online"
+        ],
+        "course-type": [
+            "_course-types/short-courses.md"
+        ],
+        "image": "https://www.uxlift.org/assets/images/designcode-logo.svg",
+        "link": "https://designcode.io",
+        "site_type": [
+            "Learning provider"
+        ]
+    },
+    {
+        "source": "UX team",
+        "date": "2020-04-15 17:07:53 +0100",
+        "title": "Microsoft Design",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/ms.png",
+        "link": "https://medium.com/microsoft-design",
+        "site_type": [
+            "UX team"
+        ]
+    },
+    {
+        "source": "Personal blog",
+        "date": "2020-04-15 14:11:14 +0100",
+        "title": "Matthew Ström",
+        "description": "",
+        "image": "https://www.uxlift.org/assets/images/matthewstrom.png",
+        "link": "https://matthewstrom.com",
+        "feed": "https://matthewstrom.com/feed.xml",
+        "site_type": []
+    },
+    {
+        "title": "Springboard",
+        "description": "### Get your dream job faster, cheaper, better. Guaranteed.\n\nOnline and flexible\n\nNo need to quit your job. Learn on your own schedule, right from the comfort of your home.\n\n#### Project-based curriculum\n\nWhile you learn, build real-world projects that you can speak about in job interviews.\n\n#### Pay after you get a job\n\nWith deferred tuition, you pay us a flat fee only after you're hired. No income share - you own the upside.\n\n#### Work with a team that’s invested in your success\n\nMaking a career change is hard. We help you define your path, get unblocked, and meet your learning goals.\n\n#### Learn 1-on-1, from an industry insider\n\nYour mentor will keep your learning on track and take your portfolio to the next level.\n\n#### Train with a personal coach to ace your job search\n\nLearn to navigate the hiring process and talk about your projects with confidence, so that you can land your dream job.",
+        "link": "www.springboard.com",
+        "image": "https://www.uxlift.org/assets/images/springboard.png",
+        "location": [
+            "Online"
+        ],
+        "date": "2020-08-26T09:38:13+01:00",
+        "course-type": [
+            "_course-types/bootcamps.md"
+        ],
+        "site_type": [
+            "Learning provider"
+        ]
+    },
+    {
+        "date": "2020-04-15T16:12:43+00:00",
+        "title": "Coursera",
+        "description": "**Learn the latest skills** like business analytics, graphic design, Python, and more\n\n**Get ready for a career** in high-demand fields like IT, AI and cloud engineering\n\n**Earn a certificate or degree** from a leading university in business, computer science, and more\n\n**Upskill your organization** with on-demand training and development programs",
+        "image": "https://www.uxlift.org/assets/images/coursera.png",
+        "link": "https://www.coursera.org",
+        "location": "Online",
+        "course-type": [
+            "_course-types/short-courses.md"
+        ],
+        "site_type": [
+            "Learning provider"
+        ]
+    },
+    {
+        "date": "2019-11-05 15:42:25 +0000",
+        "title": "UX Matters",
+        "image": "https://www.uxlift.org/assets/images/uxmatters.png",
+        "description": "UX Matters provides a platform for our columnists and authors — who include many leading experts in User Experience — to share their insights on important UX topics, disseminate leading UX practices, and influence the future direction of the profession. \n\nOur articles cover everything from practical, actionable advice and best practices; to concise overviews of broader topics; to in-depth thought pieces that explore strategic aspects of User Experience; to future trends in digital experiences.",
+        "link": "https://www.uxmatters.com",
+        "feed": "http://feedpress.me/UXmatters",
+        "source": [
+            "Publication"
+        ],
+        "site_type": [
+            "Publication"
+        ]
+    }
+]

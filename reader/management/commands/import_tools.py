@@ -2,7 +2,7 @@ import json
 from django.core.management.base import BaseCommand
 from reader.models import Tool
 from django.utils.text import slugify
-# from cloudinary.uploader import upload  # Commented out as per your request
+from cloudinary.uploader import upload
 
 class Command(BaseCommand):
     help = 'Import tools from a JSON file'
@@ -17,8 +17,7 @@ class Command(BaseCommand):
             tools_data = json.load(file)
 
             for data in tools_data:
-                # Commenting out image functionality as per request
-                # ...
+     
 
                 tool_slug = slugify(data['title'])
                 tool, created = Tool.objects.get_or_create(slug=tool_slug)

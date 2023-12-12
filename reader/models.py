@@ -18,24 +18,55 @@ from django.conf import settings
 from django.db import models
 from django.utils import timezone
 from django.utils.text import slugify
+from django.contrib.auth import get_user_model
+from urllib.parse import urlparse
+
+#from .feed_utils import fetch_posts_for_site
 
 class Topic(TagModel):
     class TagMeta:
         # Tag options go here (optional)
         pass
 
+class SiteType(TagModel):
+    name = models.CharField(max_length=200)
+    slug = models.SlugField(max_length=200, unique=True, blank=True)
+
+    class TagMeta:
+        # Tag options go here (optional)
+        pass
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            # Generate slug from name
+            self.slug = slugify(self.name)
+
+            # Ensure the slug is unique
+            original_slug = self.slug
+            counter = 1
+            while SiteType.objects.filter(slug=self.slug).exclude(pk=self.pk).exists():
+                self.slug = f"{original_slug}-{counter}"
+                counter += 1
+
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return self.name
+    
 class Site(models.Model):
     STATUS_CHOICES = [
         ('D', 'Draft'),
         ('P', 'Published'),
     ]
-    title = models.CharField(max_length=255)
+    title = models.CharField(max_length=1000)
     description = models.TextField()
     url = models.URLField()
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     status = models.CharField(max_length=1, choices=STATUS_CHOICES, default='D')
     feed_url = models.URLField(null=True, blank=True)
-    site_icon = models.ImageField(upload_to='site_icons/', null=True, blank=True)
+    site_icon = CloudinaryField('image', null=True)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, null=True)  # Allow null for user
+    site_type = TagField(to=SiteType, null=True)
 
     def __str__(self):
         return self.title
@@ -74,90 +105,99 @@ class Site(models.Model):
             icon_url = icon_link['href']
             icon_url = urljoin(self.url, icon_url)
             
-            icon_response = requests.get(icon_url)
-            if icon_response.status_code == 200:
-                file_name = os.path.basename(icon_url)
-                self.site_icon.save(file_name, ContentFile(icon_response.content), save=False)
-
-    def fetch_posts(self):
-        if self.feed_url is None:
-            print(f"No valid feed URL found for site: {self}")
-            return
-
-        feed = feedparser.parse(self.feed_url)
-        for entry in feed.entries:
-            title = entry.title
-            content = entry.description if 'description' in entry else ''  # Use description field here
-            link = entry.link
-            date_published = parse(entry.published) if 'published' in entry else None
-            image = entry.get('image', '')
-            categories = ", ".join(term['term'] for term in entry.tags if 'term' in term) if 'tags' in entry else ''
-            try:
-                post = Post.objects.get(site=self, title=title, url=link)
-                # If post exists, update the fields
-                changes_made = False
-                if post.content != content:
-                    post.content = content
-                    changes_made = True
-                if post.date_published != date_published:
-                    post.date_published = date_published
-                    changes_made = True
-                if post.image_path != image:  
-                    post.image_path = image
-                    changes_made = True
-                if post.categories != categories:
-                    post.categories = categories
-                    changes_made = True
-                # Only save if changes were made
-                if changes_made:
-                    post.save()
-            except Post.DoesNotExist:
-                # If post does not exist, create a new one
-                Post.objects.create(
-                    site=self,
-                    title=title,
-                    content=content,
-                    url=link,
-                    date_published=date_published,
-                    image_path=image,  # use image_path instead of image
-                    categories=categories,
-                )
+            # Upload icon to Cloudinary and store the public_id
+            if icon_url:
+                try:
+                    uploaded_image = upload(icon_url)
+                    cloudinary_public_id = uploaded_image.get('public_id')
+                    self.site_icon = cloudinary_public_id
+                except Exception as e:
+                    print(f"Error uploading icon for site '{self.title}': {e}")
 
     def save(self, *args, **kwargs):
-        # Check if the user is in the 'Editor' group
-        if self.user.groups.filter(name='Editor').exists():
-            self.status = 'P'  # Set status to 'Published'
 
         self.find_feed()  # Update the feed url before saving
         self.find_meta_info()
         self.find_and_save_icon()
 
+        # Set default user if not provided
+        if not self.user_id:
+            default_user = get_user_model().objects.get(id=1)
+            self.user = default_user
+
         super().save(*args, **kwargs)  # Call the "real" save() method.
 
-        # Fetch posts after the site is saved, so we have an ID to associate posts with
-        if self.status == 'P':  # Change this to match your 'published' status value
-            self.fetch_posts()
-
+        # Optionally fetch posts after saving, if the site is included in feed
+        #if self.include_in_feed:
+        #   fetch_posts_for_site(self)
 
 class Post(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, null=True, blank=True, on_delete=models.SET_NULL)
     created_date = models.DateTimeField(default=timezone.now)
     site = models.ForeignKey(Site, on_delete=models.CASCADE, null=True, blank=True)
-    site_name = models.CharField(max_length=200, null=True, blank=True) # new field for site name
-    site_title = models.CharField(max_length=200, null=True, blank=True) # new field for site title
+    site_name = models.CharField(max_length=1000, null=True, blank=True) # new field for site name
+    site_title = models.CharField(max_length=1000, null=True, blank=True) # new field for site title
     site_icon = models.URLField(null=True, blank=True) # new field for site icon URL
-    title = models.CharField(max_length=200)
-    url = models.URLField()
-    image_path = models.URLField(null=True, blank=True) # or models.ImageField() depending on how you are handling images
+    title = models.CharField(max_length=1000)
+    url = models.URLField(max_length=1000)
+    image_path = models.URLField(max_length=1000,null=True, blank=True) # or models.ImageField() depending on how you are handling images
     content = models.TextField(blank=True)  # the introduction or excerpt field
     topics = TagField(to=Topic)
-    categories = models.CharField(max_length=200, null=True, blank=True)  # or a many-to-many relation to a Category model
+    categories = models.CharField(max_length=1000, null=True, blank=True)  # or a many-to-many relation to a Category model
     date_published = models.DateTimeField(null=True, blank=True)
+
     def __str__(self):
         return self.title
+    
+    def fetch_og_image(self):
+        try:
+            response = requests.get(self.url)
+            soup = BeautifulSoup(response.content, 'html.parser')
+            og_image = soup.find("meta", property="og:image")
+            if og_image and og_image.get("content"):
+                return og_image["content"]
+        except Exception as e:
+            print(f"Error fetching OG image for post '{self.title}': {e}")
+        return None
+    
+    def fetch_web_data(self):
+        # Only fetch web data if content is blank
+        if not self.content:
+            try:
+                response = requests.get(self.url)
+                soup = BeautifulSoup(response.content, 'html.parser')
+                og_description = soup.find('meta', property='og:description')['content'] if soup.find('meta', property='og:description') else None
+                if og_description:
+                    self.content = og_description
+            except Exception as e:
+                print(f"Error while fetching web data for post '{self.title}': {e}")
+
+    def find_or_create_site(self):
+        post_url_parsed = urlparse(self.url)
+        post_root_url = f"{post_url_parsed.scheme}://{post_url_parsed.netloc}"
+        site, created = Site.objects.get_or_create(url=post_root_url)
+        return site
+
+    def save(self, *args, **kwargs):
+        self.fetch_web_data()
+
+        if not self.user_id:
+            # Set default user if not provided
+            default_user = get_user_model().objects.get(id=1)
+            self.user = default_user
+
+        # Get the og:image and save it to image_path
+        if not self.image_path:
+            self.image_path = self.fetch_og_image()
+
+        # Match or create a Site and link it
+        if not self.site:
+            self.site = self.find_or_create_site()
+
+        super().save(*args, **kwargs)
 
 class Tool(models.Model):
-    title = models.CharField(max_length=200)
+    title = models.CharField(max_length=600)
     description = models.TextField()
     link = models.URLField()
     image = CloudinaryField('image')
