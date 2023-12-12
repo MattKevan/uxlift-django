@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 from dateutil.parser import parse
 from django.contrib.auth.models import User  # Add this line
 from django.utils import timezone
-import tagulous.models
+from tagulous.models import TagField, TagModel
 import os
 import requests
 from bs4 import BeautifulSoup
@@ -19,7 +19,7 @@ from django.db import models
 from django.utils import timezone
 from django.utils.text import slugify
 
-class Topic(tagulous.models.TagModel):
+class Topic(TagModel):
     class TagMeta:
         # Tag options go here (optional)
         pass
@@ -150,10 +150,9 @@ class Post(models.Model):
     url = models.URLField()
     image_path = models.URLField(null=True, blank=True) # or models.ImageField() depending on how you are handling images
     content = models.TextField(blank=True)  # the introduction or excerpt field
-    topics = tagulous.models.TagField(to=Topic)
+    topics = TagField(to=Topic)
     categories = models.CharField(max_length=200, null=True, blank=True)  # or a many-to-many relation to a Category model
     date_published = models.DateTimeField(null=True, blank=True)
-
     def __str__(self):
         return self.title
 
@@ -163,7 +162,7 @@ class Tool(models.Model):
     link = models.URLField()
     image = CloudinaryField('image')
     date = models.DateTimeField(default=timezone.now)
-    topics = tagulous.models.TagField(to='Topic')  # Referencing your shared topic model
+    topics = TagField(to='Topic')  # Referencing your shared topic model
     body = models.TextField()  # This can be used for the full content of the tool
     slug = models.SlugField(unique=True, blank=True)
 

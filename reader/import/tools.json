@@ -1,0 +1,1369 @@
+[
+    {
+        "title": "Alva",
+        "description": "Create living prototypes with code components.",
+        "link": "http://www.meetalva.io",
+        "tags": [
+            "React"
+        ],
+        "image": "https://www.uxlift.org/assets/images/alva.svg",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Design-to-code"
+        ]
+    },
+    {
+        "title": "Framer",
+        "description": "A free prototyping tool for teams. Bring every idea to life in Framer.",
+        "link": "http://www.framer.com",
+        "image": "https://www.uxlift.org/assets/images/framer.png",
+        "date": "2019-07-15T09:37:46+01:00",
+        "body": "### So yes, Framer is on the web.\n\nAnd it’s got all the team collaboration features you’d expect from a high-fidelity prototyping tool: multi-player editing, easy sharing, inline commenting, reusable components, and developer handoff. But let’s cut right to what makes this the best prototyping tool on the market.\n\n### An advanced prototyping tool, minus the code.\n\nSo how does it work? Import from any of your favorite   \nUI design tools or start from scratch in Framer. Simply right-click to swap out static elements and replace them with interactive components.\n\n### Motion that works like magic.\n\nReady to design your first animation? Drag and drop with Magic Motion to create immersive prototypes. Just use the connector to draw a link between elements on the canvas. Manipulate size or position and Framer figures out everything else.\n\nDraw simple card animations or compose complex prototypes. The best part? Nothing you design is throwaway. Of all prototyping tools, Framer is the only one outputs animation values that can be used 1:1 in production.",
+        "topics": [
+            "Prototyping"
+        ]
+    },
+    {
+        "date": "2019-11-05 14:47:44 +0000",
+        "title": "VWO",
+        "image": "https://www.uxlift.org/assets/images/vwo.svg",
+        "description": "Improves key business metrics by empowering you to easily discover insights, test ideas, and improve engagement - across the entire customer journey.",
+        "link": "https://vwo.com",
+        "body": "Here's how VWO Experience Optimization Platform helps you to continuously improve your KPIs:\n\n### Grow conversions by rapidly testing tons of new ideas\n\nEasily create and run tests to increase revenue, combat cart abandonment, and build stellar digital experiences that convert. Without coding or involving IT.\n\n### Discover exactly what is limiting your conversion rate\n\nCombine the power of session recordings, heatmaps, on-page surveys, and more to diagnose problem areas in your visitors’ experiences. So you can fix what's broken. And make the good stuff even better.\n\n### Amplify your experimentation reach & performance with server side testing\n\nEmbrace multi-channel experimentation. Test anything, be it product feature changes, search algorithms, subscription workflows, and any other big idea that can help you move the north star metric for your business.\n\n### Bring lost opportunities back to your marketing funnel\n\nThink beyond emails and leverage new-age channels. Keep your visitors engaged with automated marketing campaigns through web push notifications & Facebook Messenger.\n\n### See your core conversion metrics go up every week\n\nWith in-built program management, your teams can collaboratively discover growth opportunities in your visitor's journey, build a pipeline of high-impact experimentation ideas, and see them all the way to completion.",
+        "topics": [
+            "Optimisation"
+        ]
+    },
+    {
+        "title": "Kactus",
+        "description": "Manage changes, document work and keep your team in sync.",
+        "link": "http://www.kactus.io",
+        "image": "https://www.uxlift.org/assets/images/kactus.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Design version control"
+        ]
+    },
+    {
+        "date": "2019-09-06 12:04:36 +0100",
+        "title": "Flywheel",
+        "image": "https://www.uxlift.org/assets/images/flywheel.png",
+        "description": "Whatever your work environment, Flywheel's powerful WordPress platform removes all the hassles of hosting, streamlines your processes, and lets you get back to doing your best work.",
+        "link": "https://share.getf.ly/m23r4a",
+        "body": "",
+        "topics": [
+            "Web development"
+        ]
+    },
+    {
+        "date": "2021-04-01 09:42:57 +0100",
+        "org_ref": [],
+        "title": "Bellini Slushie",
+        "image": "https://www.uxlift.org/assets/images/bellini.png",
+        "description": "Get all the survey help you need with the Bellini Slushie Question Bank. It's a forever free, open-source database of survey questions, translations, and guidance.",
+        "link": "https://bellinislushie.com/?utm_source=UXLift.Org&utm_medium=Tools&utm_campaign=homepage",
+        "body": "### Most tools don't make you a better researcher\n\nThis is not another survey platform. There are plenty out there.\n\nThere are also a million online resources with sample questions, question types, response options, and reasons to ask questions.\n\nA million bits and pieces, scattered all over the internet.\n\n**Everytime you build a survey, it’s an epic scavenger hunt.**\n\nOn the internet. In your old files. In colleague's minds.\n\nThat’s where the Bellini Slushie **Survey Question Bank** comes in.\n\n### Search\n\nFind questions that have relevant responses and are contextualized to culture. The database is organised with category tags, languages and countries so you can fly through it.\n\n### Discover\n\nBrowse through our catalog of survey questions. They’re paired with best practices and execution tips, so you can understand when and why you should or shouldn’t use them.\n\n### Assemble\n\nJump-start your survey with **free** questions, available for your immediate use. We’re platform agnostic, so you can still use your favorite tools.\n\n### Contribute\n\nJoin us on our mission to make research better. We're keeping this open-source and community-oriented, so anyone can add questions and translations to the database.",
+        "topics": [
+            "User research"
+        ]
+    },
+    {
+        "date": "2020-06-24 10:38:19 +0100",
+        "title": "HTML Sketchapp",
+        "image": "https://www.uxlift.org/assets/images/html-sketch.png",
+        "description": "HTML Sketchapp turns HTML nodes into Sketch layers or symbols. Additionally, it allows to export shared text styles and document colors.",
+        "link": "https://github.com/html-sketchapp/html-sketchapp",
+        "body": "#### Why?\n\nThe motivation behind this project was ability to easily share Front-End style guide with our Design team. Although similar project, [react-sketchapp](https://github.com/airbnb/react-sketchapp), already exists it does require you to:\n\n* use React,\n* build everything using generic components (`<View>`, `<Text>`, `<Image>`),\n* and keep your styles in JS.\n\nWe were unable to quickly work around these limitations, so we created html-sketchapp.\n\nYou can learn more about this project from:\n\n* [our wiki](https://github.com/html-sketchapp/html-sketchapp/wiki),\n* and the excellent article [\"Sketching in the Browser\"](https://medium.com/seek-blog/sketching-in-the-browser-33a7b7aa0526) by @markdalgleish.",
+        "topics": [
+            "Design systems",
+            "Design-to-code",
+            "Web development"
+        ]
+    },
+    {
+        "date": "2019-10-01 17:06:48 +0100",
+        "title": "Userfeel",
+        "image": "https://www.uxlift.org/assets/images/Userfeel.png",
+        "description": "A usability testing tool that gives you videos of real users speaking their thoughts as they use your website or app.",
+        "link": "https://www.userfeel.com",
+        "body": "Userfeel was designed and developed by Usability Researchers for Usability Researchers but also for newcomers to UX Research and anyone who wants to optimize their website or app.\n\n### Userfeel is a multilingual user testing tool\n\nTest any site in any language. Our panel consists of more than 70,000 testers speaking 40 languages. You can even have testers provide comments in your language while testing a website that is in a language you don't understand.\n\n### User testing on any device\n\nTest on desktop, mobile, or tablet. Testing with both our app and an external camera allows us to test websites or applications on Android, iPhone, or iPad.",
+        "topics": [
+            "User testing"
+        ]
+    },
+    {
+        "date": "2019-10-15 09:36:09 +0100",
+        "title": "Accessible brand colors",
+        "description": "This tool shows you how ADA compliant your colors are in relation to each other. By adding your brand’s colors on the right, you can generate a chart to see how they can be used together for accessibility, and find similar colors that work better.",
+        "link": "https://abc.useallfive.com/",
+        "site": "Accessible brand colours",
+        "image": "https://www.uxlift.org/assets/images/abc.svg",
+        "type": "Resource",
+        "preview": "",
+        "body": "",
+        "topics": [
+            "Visual design",
+            "Accessibility"
+        ]
+    },
+    {
+        "date": "2019-09-06 17:35:29 +0100",
+        "title": "Netlify",
+        "image": "https://www.uxlift.org/assets/images/netlify.png",
+        "description": "Netlify is everything you need to build fast, modern websites: continuous deployment, serverless functions, and so much more.",
+        "link": "https://www.netlify.com",
+        "body": "",
+        "topics": [
+            "Web development"
+        ]
+    },
+    {
+        "date": "2019-09-16 17:36:11 +0100",
+        "title": "Figmac",
+        "image": "https://www.uxlift.org/assets/images/Figmac.png",
+        "description": "A super lightweight Figma desktop app that delivers a more natural Mac experience.",
+        "link": "https://figmac.com",
+        "body": "### Lightweight\n\nFigmac is only 1.5MB, making it x88 times smaller than the official Figma desktop app.\n\n### Touch Bar\n\nFigmac supports your Macs Touch Bar delivering a more productive workflow.\n\n### Native Tabs\n\nFigmac supports native MacOS window tabs for a more natural Mac experience.\n\n### Figma Files\n\nFigmac recognizes .fig files and automatically imports them when they are clicked in Finder.\n\n### Keyboard Shortcuts\n\nFigmac supports all of your favourite Figma keyboard shortcuts.\n\n### Secure\n\nFigmac is sandboxed and notarized by Apple for added security and peace of mind.",
+        "topics": [
+            "Visual design"
+        ]
+    },
+    {
+        "date": "2021-04-01 09:40:19 +0100",
+        "org_ref": [],
+        "title": "Proven By Users",
+        "image": "https://www.uxlift.org/assets/images/proven-by-users.jpg",
+        "description": "A user research platform that enables you to test all aspects of your UX and design.",
+        "link": "https://www.provenbyusers.com",
+        "body": "### Design your test how you want\n\nValidate the important parts of your User Experience and Visual Design with targeted research. We won't limit what you can put in your test. Our suite of UX research & testing tools lets you uncover the best design and information architecture for your users.\n\nWelcome to the complete UX testing platform that includes the types of test you need to gather qualitative and quantitative results at an affordable price.\n\n### Testing anyone can do\n\nOur research platform is 100% browser based with no extensions required. Each test comes with a unique URL that you provide to the participants of your research.\n\nHave an image or a navigation structure that needs testing? You can be up and testing in minutes.\n\n### Prove your design with data\n\nDisagreements about design happen. When your participants take your test, we compile the responses immediately and provide you with the meaningful insight to make smart decisions.\n\nTrying to appeal to multiple user groups? With free surveys on any test type, you'll be able to filter your results to see how different user groups react to your design.",
+        "topics": [
+            "User testing"
+        ]
+    },
+    {
+        "date": "2019-11-06 09:33:00 +0000",
+        "title": "Diez",
+        "image": "https://www.uxlift.org/assets/images/Diez.svg",
+        "description": "Cross-platform design system framework,\nmaking it easy to adopt a unified design language across codebases, platforms, and teams.",
+        "link": "https://diez.org",
+        "body": "### Design Token Components\n\nUse TypeScript to compose design tokens into deeply customizable, reusable, and developer-friendly Design Token Components.\n\nDesign Token Components enable a \"write once, use anywhere\" paradigm for your design language, across codebases.\n\n### Cross-Platform Native Compiler\n\nMore precisely a _transpiler_: Diez builds your TypeScript component definitions into pure native SDKs for iOS, Android, and the Web — complete with type definitions and autocomplete.\n\n**Diez works with your codebase(s):** Diez carries zero opinions about rendering, requires no runtime or VMs, and is designed for progressive adoption.\n\n### Design File Extractors\n\nDiez includes command-line tools for extracting normalized, strongly typed styles and images from many modern design tools.\n\n### Hot Updates\n\nThe Diez compiler ships with a `**hot**` mode, which allows for hot updates at development time — even inside native iOS and Android apps.",
+        "topics": [
+            "Design systems"
+        ]
+    },
+    {
+        "date": "2019-10-15 10:49:34 +0100",
+        "title": "Colorblind Web Page Filter",
+        "description": "Use the Colorblind Colorlab to select safe colors earlier in the design process.",
+        "link": "https://www.toptal.com/designers/colorfilter/",
+        "site": "Toptal",
+        "image": "https://www.uxlift.org/assets/images/www.toptal.com.ico.png",
+        "type": "Resource",
+        "preview": "",
+        "body": "",
+        "topics": [
+            "Visual design",
+            "Accessibility"
+        ]
+    },
+    {
+        "title": "Optimal Workshop",
+        "description": "Suite of UX research tools, including tree testing, click testing and card sorting.",
+        "link": "http://www.axure.com",
+        "image": "https://www.uxlift.org/assets/images/optimal-workshop.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "User testing",
+            "User research"
+        ]
+    },
+    {
+        "title": "Drama",
+        "description": "Draw user interfaces, create interactive prototypes and make animations.",
+        "link": "https://www.drama.app/beta",
+        "image": "https://www.uxlift.org/assets/images/Drama.png",
+        "date": "2019-09-02 17:08:04 +0100",
+        "body": "",
+        "topics": [
+            "Prototyping",
+            "Animation"
+        ]
+    },
+    {
+        "date": "2020-08-20 11:17:06 +0100",
+        "title": "Story Creator",
+        "image": "https://www.uxlift.org/assets/images/screenshot-2020-08-20-at-11-21-44.png",
+        "description": "Simple online video editing for digital creators.",
+        "link": "https://storycreatorapp.com",
+        "body": "Create beautiful videos. Access the tools that make your videos social media ready. You don't have to be an expert. Get started now, no account required.\n\n#### Speed up video production time\n\nCreate engaging videos quickly from your browser. You get faster render times and a super intuitive video editor built for social media. You'll be pumping out content like a champ.\n\n#### Made for creators\n\nA video type made for your industry. With Story Creator there are so many different types of videos you can create.\n\n#### Out of the box content\n\nSave time by having high quality content available at all times. Choose premium HD videos and photos from Unsplash and Pexels.",
+        "topics": [
+            "Animation"
+        ]
+    },
+    {
+        "date": "2019-09-06 11:07:18 +0100",
+        "title": "Whimsical",
+        "image": "https://www.uxlift.org/assets/images/whimsical.png",
+        "description": "The visual workspace. Communicate visually at the speed of thought.",
+        "link": "https://whimsical.com",
+        "body": "### Flowcharts\n\n* **Lightning fast**. Communicate visually with speed.\n* **Beautiful output**. Spend time on your ideas, not styling.\n* **Collaborate in real time**. Get more done, together.\n\n### Wireframes\n\n* **Instant wireframing at your fingertips.** Whimsical includes a rich library of configurable elements like buttons, inputs, checkboxes, and more.\n* **Just the right amount of detail.** Expressive yet simple enough to keep the focus on what matters - the ideas.\n* **Smart customizations.** Add a label or change a state with a click. Designing forms is finally fun.\n* **Speed is a feature.** Quick lookup and keyboard shorcuts makes wireframing faster than ever before.\n\n### Sticky notes\n\nThe most fun way to collaborate. We have reimagined sticky notes with collaboration, speed, and delightfulness in mind.\n\n* **Capture Everything.** Expandable cards lets you attach rich text, images, comments and more.\n* **Organize Like A Boss.** Freely resizable stacks help you group and sort cards in a powerful yet simple way.\n* **Sky Is The Limit.** The infinite two-dimensional canvas gives you uncompromising freedom to grow.\n\n### Mind Maps\n\nOrganize ideas with speed.",
+        "topics": [
+            "Collaboration",
+            "Wireframing",
+            "Diagramming"
+        ]
+    },
+    {
+        "title": "Origami Studio",
+        "description": "A new tool for designing modern interfaces, built and used by designers at Facebook.",
+        "link": "https://origami.design",
+        "image": "https://www.uxlift.org/assets/images/origami.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "Explore, iterate, and test your ideas. A new tool for designing modern interfaces, built and used by designers at Facebook. Get started today for free.\n\n#### Design with layers\n\nEasily create prototypes with layers. Bring layers from Sketch and play with masks, particle systems, and live cameras.\n\n#### Reuse components\n\nSave time with pre-built Material and iOS components. Make your own library for your team and design faster together.\n\n#### Build interactions\n\nQuickly explore and iterate visually with patches. Build flows and invent new interactions, with no limits to your creativity.\n\n#### Preview it live\n\nSee changes immediately in the Viewer as you make them. Test your prototype and adjust it on the fly.",
+        "topics": [
+            "Prototyping"
+        ]
+    },
+    {
+        "title": "ProtoPie",
+        "description": "Interactive prototypes for the digital products of tomorrow.",
+        "link": "https://www.protopie.io",
+        "image": "https://www.uxlift.org/assets/images/ProtoPie.png",
+        "date": "2019-09-02 17:05:37 +0100",
+        "body": "#### Create the most realistic prototypes easily\n\nIn the most familiar way to you: close to human natural language.\n\n* **Accelerate & supercharge** – accelerate your workflow with components and supercharge your prototypes with sensors, variables, and more.\n* **Integrations** – import your designs from your favorite design tools.\n* **Cross-platform** – prototyping has never been this easy on macOS and Windows.\n\n#### Test your prototypes anywhere, anytime\n\nTest your amazing creations on smartphones, tablets, desktop, and the web.  All in a heartbeat.\n\n#### Collaborate with those who matter\n\nShare your prototypes to the cloud and work together on iterations faster. All in one place.",
+        "topics": [
+            "Prototyping"
+        ]
+    },
+    {
+        "date": "2019-10-01 10:25:06 +0100",
+        "title": "User Insights",
+        "image": "https://www.uxlift.org/assets/images/userinsights-1.png",
+        "description": "User Insights is the easiest way to understand what your customers think about your website.",
+        "link": "https://userinsights.com",
+        "body": "Get ideas for improvements, address friction points, and improve conversions.. and so much more.\n\n### Diagnose issues that confuse or turn-off customers.\n\nNo more guessing or wondering “what if?”   \nBe confident in your decisions and improve your website with real user feedback.\n\n### Get real feedback on nearly anything.\n\nIt's _really_ hard to build a user centric product without talking to users, so we make it easy. All we need is a link. We’ll send that link out to our panel of testers or you can share it yourself to your own.",
+        "topics": [
+            "User testing"
+        ]
+    },
+    {
+        "date": "2020-04-16 14:39:34 +0100",
+        "title": "Looom",
+        "image": "https://www.uxlift.org/assets/images/LforLooom.svg",
+        "description": "Flipbook animation reimagined.",
+        "link": "https://iorama.studio",
+        "body": "### Animation playground\n\nWe’d like to show you a new way to create hand-drawn animation. So playful you’ll think it’s a toy, but it's secretly a robust app with a reimagined UI for animators and creators.\n\n### Wonderfully musical\n\nTaking inspiration from music creation tools, using Looom feels more like playing an instrument than operating software - exploring lines, shapes and colors through loopable time and rhythm.\n\n### Everyone in the loop\n\nLooom is all about looping animation with a smile. It was designed for professionals and beginners of any age, and is already being used by some influential indie animators.",
+        "topics": [
+            "Animation"
+        ]
+    },
+    {
+        "date": "2019-11-05 11:23:59 +0000",
+        "title": "Clicky",
+        "image": "https://www.uxlift.org/assets/images/Clicky.png",
+        "description": "1,219,599 web sites depend on Clicky to monitor, analyze, and react to their traffic in real time.",
+        "link": "https://clicky.com",
+        "body": "### Everything is real time\n\nEvery report in Clicky is up-to-the-minute real time.\n\n### Ridiculous detail\n\nMost reports contain high detail on every segment.\n\n### Individual visitors and actions\n\nSee every individual visitor and page view / event.\n\n### No bots or referrer spam\n\nOur bot detection and blocking is the best in the biz.\n\n### Heatmaps\n\nView heatmaps by page, visitor, or segment.\n\n### On-site analytics\n\nSee how many visitors are on your site and on the page you're viewing. You can also launch heatmaps from the widget, all without leaving your site.\n\n### Uptime monitoring\n\nReceive alerts when your site goes offline so you can react immediately. Your site's uptime is monitored from 7 locations around the world.",
+        "topics": [
+            "Analytics"
+        ]
+    },
+    {
+        "date": "2019-10-15 14:08:04 +0100",
+        "title": "Color Tool",
+        "description": "Create, share, and apply color palettes to your UI, as well as measure the accessibility level of any color combination.",
+        "link": "https://material.io/resources/color",
+        "site": "Google Material Design",
+        "image": "https://www.uxlift.org/assets/images/material.png",
+        "type": "Resource",
+        "preview": "",
+        "body": "",
+        "topics": [
+            "Accessibility",
+            "Visual design"
+        ]
+    },
+    {
+        "title": "Maze",
+        "description": "A user testing platform that turns your prototype into actionable insights from real users.",
+        "link": "http://www.maze.design",
+        "image": "https://www.uxlift.org/assets/images/maze.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "User research",
+            "User testing"
+        ]
+    },
+    {
+        "date": "2020-08-20 11:12:55 +0100",
+        "title": "Plasmic",
+        "image": "https://www.uxlift.org/assets/images/plasmic.svg",
+        "description": "The fast and fun visual builder for React.",
+        "link": "https://www.plasmic.app",
+        "body": "### Build maintainable, production-ready presentational components at the speed of design.\n\nPlasmic enables developers and designers to compose React UIs visually. It lets you start with rough designs from Figma/Sketch or from scratch, and refactor them into maintainable, production-ready presentational components—without compromising developer control. \n\nYou can import Plasmic components into your existing React codebase, and you can also reuse existing code components in the Plasmic editor. \n\nWith Plasmic, the aim is to provide a better and faster development experience, eliminate an entire class of visual bugs/QA/tooling, and ultimately maintain a single source of truth with design.",
+        "topics": [
+            "Design-to-code"
+        ]
+    },
+    {
+        "date": "2019-10-15 14:04:10 +0100",
+        "title": "Colorbox",
+        "description": "Comprehensive colour palette generator, now sponsored by Lyft.",
+        "link": "https://www.colorbox.io",
+        "site": "Colorbox",
+        "image": "https://www.uxlift.org/assets/images/colorbox.png",
+        "type": "Resource",
+        "preview": "",
+        "body": "",
+        "topics": [
+            "Accessibility",
+            "Visual design"
+        ]
+    },
+    {
+        "title": "React Sketch.app",
+        "date": "2020-05-15 00:00:00 +0100",
+        "image": "https://www.uxlift.org/assets/images/reactsketchapp.png",
+        "description": "Render React components to Sketch; tailor-made for design systems",
+        "link": "http://airbnb.io/react-sketchapp/",
+        "body": "#### Why?!\n\nManaging the assets of design systems in Sketch is complex, error-prone and time consuming. \n\nSketch is scriptable, but the API often changes. React provides the perfect wrapper to build reusable documents in a way already familiar to JavaScript developers.\n\n#### What can I do with it?\n\n* **Manage design systems—** `react-sketchapp` was built for [Airbnb’s design system](http://airbnb.design/building-a-visual-language/); this is the easiest way to manage Sketch assets in a large design system.\n* **Use real components for designs—** Implement your designs in code as React components and render them into Sketch\n* **Design with real data—** Designing with data is important but challenging; `react-sketchapp` makes it simple to fetch and incorporate real data into your Sketch files.\n* **Build new tools on top of Sketch—** the easiest way to use Sketch as a canvas for custom design tooling.",
+        "topics": [
+            "Design-to-code",
+            "Design systems",
+            "Web development"
+        ]
+    },
+    {
+        "date": "2020-04-20 09:54:13 +0100",
+        "title": "Miro",
+        "image": "https://www.uxlift.org/assets/images/miro.png",
+        "description": "The online collaborative whiteboard platform to\nbring teams together, anytime, anywhere.",
+        "link": "https://miro.com",
+        "body": "**Ideation & Brainstorming**\n\nBuild and develop ideas with distributed teams as   \nif you were in the same room, anywhere, anytime.\n\n**Research & Design**\n\nCo-create and align with cross-functional stakeholders on a collaborative, online whiteboard.\n\n**Agile Workflows**\n\nSupercharge your agile process with collaborative retrospectives, sprint planning, and huddle boards.\n\n**Strategy & Planning**\n\nStay on the pulse of distributed projects with an online whiteboard to plan, coordinate and discuss.\n\n**Mapping & Diagramming**\n\nExplain complex processes and systems with visual mapping and diagramming.",
+        "topics": [
+            "Diagramming",
+            "Collaboration"
+        ]
+    },
+    {
+        "date": "2019-11-05 15:42:25 +0000",
+        "title": "AB Tasty",
+        "image": "https://www.uxlift.org/assets/images/abtasty-logo.svg",
+        "description": "An experimentation and personalization platform that turbocharges optimization.",
+        "link": "https://www.abtasty.com",
+        "body": "### For marketing teams\n\nExperimentation and personalization that fits seamlessly into your workflow and boosts your ROI.\n\n**Client-side testing** Our visual editor and widget library take code out of the equation, so you can run insightful campaigns without the time commitment or hassle.\n\n**Personalized user experiences** Segment audiences to send the right message, to the person, at the right time—it's hyper-precision at hyper-speed.\n\n**Nudge engagement campaigns** Choose from a variety of industry-specific, customizable templates to nudge visitors into action.\n\n### For product teams\n\nProgressively roll out new features to accelerate time-to-market and scale without risk.\n\n**Feature flags** Feature flags let product managers toggle new features on or off for a controlled - or personalized - rollout.\n\n**Progressive rollout** Test the waters with beta programs, canary testing, and other progressive rollout methods to minimize risk and launch with a clear conscience.\n\n**Server-side experimentation** Go beyond client-side and add depth to your experimentation and personalization campaigns on all digital channels.",
+        "topics": [
+            "Optimisation"
+        ]
+    },
+    {
+        "title": "UserTesting",
+        "description": "Know how users interact with designs and fix UX issues before writing a single line of code.",
+        "link": "http://www.usertesting.com",
+        "image": "https://www.uxlift.org/assets/images/usertesting.svg",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "User research"
+        ]
+    },
+    {
+        "title": "Avocode",
+        "description": "Handoff Sketch, XD, Photoshop or Illustrator designs to developers.",
+        "link": "https://avocode.com",
+        "image": "https://www.uxlift.org/assets/images/avo.svg",
+        "date": "2018-07-15T08:37:46+00:00",
+        "body": "## About Avocode \n\n### Inspect designs and export assets.\n\nOpen Sketch, Adobe XD, Adobe Photoshop and Figma designs on macOS, Windows, and Linux, or in the browser. Generate CSS, Swift & Android code from layers, export images, fonts, styles, pick colors, measure sizes, distances and more.\n\n### Keep your designs organized in the cloud.\n\nUpload unlimited Sketch, PSD, XD or Figma files to one safe place, where your team can access, open download them 24/7. Organize designs in projects and keep design versions in sync",
+        "topics": [
+            "Developer handoff"
+        ]
+    },
+    {
+        "date": "2019-10-01 17:29:24 +0100",
+        "title": "Userlytics",
+        "image": "https://www.uxlift.org/assets/images/userlytics.png",
+        "description": "Scalable and customised user research. Analytics tells you what. Userlytics tells you why.",
+        "link": "https://www.userlytics.com",
+        "body": "### Instant insights from your Target Persona\n\nYour websites, applications, mobile apps, prototypes, **even competitor assets**; optimize your customer journey, the user interface, and your users' experience.\n\n### How it works\n\n#### 1. Select your Target Persona\n\nYou can use our worldwide panel, and leverage our demographic filters\n\nAs well as set up a custom screener, or bring your own users.\n\n#### 2. Define goals, tasks and questions\n\nDefine the tasks users need to complete on your site app or prototype.\n\nUse advanced UT metrics such as Time on Task, Success/Failure, SUS, NPS, or SEQ.\n\n#### 3. Get Instant Feedback\n\nIn just minutes, you receive qualitative and quantitative data and insights. Use our instant time stamped and searchable transcription service, identify key events and comments, create shareable annotations and clips or highlight reels, and easily share with your team.",
+        "topics": [
+            "User testing"
+        ]
+    },
+    {
+        "date": "2019-11-06 09:45:29 +0000",
+        "title": "Browsee",
+        "image": "https://www.uxlift.org/assets/images/browsee-1.png",
+        "description": "Crowd animation, session replays and heatmaps to help you visualise what your users like in your product and how they use it.",
+        "link": "https://browsee.io",
+        "body": "### Get answers to user behaviour queries\n\n* Impact of new features\n* Why are users abandoning payment or carts?\n* What issues are users facing and how to reproduce them?\n\n### What can I do with browsee?\n\n* Identify What Users Love!\n* Get Comprehensive Page Analysis OOTB.\n* Understand What Made Users Drop.\n* Convert More Users with Actionables.",
+        "topics": [
+            "User testing",
+            "Optimisation"
+        ]
+    },
+    {
+        "date": "2019-09-06T09:49:33+01:00",
+        "title": "SimpleMind",
+        "image": "https://www.uxlift.org/assets/images/simplemind.png",
+        "description": "SimpleMind is the world leader in cross platform Mind Mapping tools.",
+        "link": "https://simplemind.eu",
+        "body": "### Analyze & learn\n\nAnalyze your thoughts and structure them with SimpleMind. The unique free lay-out allows you to organize your ideas exactly how you want it.\n\n* Multiple Mind Maps on one page.\n* Horizontal, Vertical, Top-down and List Auto layout, perfect for brainstorming.\n* Virtually unlimited page size and number of elements.\n\n### Add media\n\nA picture is worth a thousand words, add images to your Mind Map!\n\n* Add images or photos.\n* Add video recordings to topics (available on tablets and phones).\n* Add voice memo’s (available on tablets and phones).",
+        "topics": [
+            "Diagramming"
+        ]
+    },
+    {
+        "title": "Figma",
+        "description": "Where teams design together. Design, prototype, and collaborate all in the browser.",
+        "link": "http://www.figma.com",
+        "image": "https://www.uxlift.org/assets/images/figma.png",
+        "date": "2019-09-03T10:29:24+00:00",
+        "body": "### Collaborate with everyone, at every phase\n\nEach contributor owns their part of the creative process and stays in sync along the way—across any platform.\n\n#### Your designers\n\nCollaborate in context and in real time. Never worry about your files being out of date or overwriting each other’s work.\n\n#### Your stakeholders\n\nSimply send a link to collect feedback, get change requests, and allow stakeholders to make copy updates in your designs.\n\n#### Your developers\n\nEngineers always have access to the current source-of-truth and can inspect elements, export assets, and copy code.\n\n### Increase efficiency with added flexibility\n\n#### Team Libraries\n\nShare components and styles in Figma—no need for shared drives or additional tools. You and your team control how and when changes are rolled out with simple publishing workflows.\n\n#### Components\n\nBuild faster and more consistently with reusable and scalable elements across your files. Access layers in each instance so you can intuitively edit and override text and images inline.\n\n#### Styles\n\nSynchronize colors, text, grids and effects across all your projects. Maintain fewer text styles and align your designs across different devices with Figma’s unique grid styles.\n\n#### Prototyping\n\nQuickly build flows by connecting screens and adding in elements like interactions, transitions, overlays, and more. Instead of syncing to other tools simply share a URL to receive feedback.\n\n### Build design systems that scale\n\nManage and easily share a consistent visual language with styles, components, and team libraries.",
+        "topics": [
+            "Design systems",
+            "Visual design",
+            "Prototyping",
+            "Collaboration",
+            "Developer handoff"
+        ]
+    },
+    {
+        "date": "2019-11-06 09:53:17 +0000",
+        "title": "Userships",
+        "image": "https://www.uxlift.org/assets/images/userships.png",
+        "description": "Translate usage-to-growth with Userships’ 100% session recording, deep analytics,  intelligent search and insights tools - for free!",
+        "link": "https://userships.com",
+        "body": "### Record 100% Sessions\n\nGet the complete picture of your users experience with user based 100% session recordings. View errors, dead clicks, UTM tags, location and much more.\n\n### View User Based Activity\n\nGet insights into all sessions for a user. View all events, locations and devices used to access your site. Identify sessions and click to view any recording.\n\n### User Behavior Patterns\n\nUnderstand where your users are coming from (source), pages visited and duration of each return visit by user. Giving you control over your user data and everything you need to understand your customer better.\n\n### Identify and Solve Customer Struggles\n\nSearch and filter your user sessions using Natural Language Search. Type in exactly what you are looking for and get to understanding your customers struggles faster.",
+        "topics": [
+            "Optimisation",
+            "Analytics",
+            "User testing"
+        ]
+    },
+    {
+        "title": "Sympli Versions",
+        "description": "Git for designers.",
+        "link": "https://versions.sympli.io",
+        "image": "https://www.uxlift.org/assets/images/versions.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "Versions is currently free to use, and unlike Abstract or Plant, it connects to Github, Bitbucket or Azure Dev Ops rather than using its own cloud infrastructure. \n\nHowever it's unclear whether it will remain a free, standalone product or will eventually require a paid Sympli account.\n\n### Streamlined Teamwork\n\nWork on the same design mockup at the same time without risk of overwriting or losing changes. Maintain full control over what is published to the project and what is being saved for later.\n\n### Single Source of Truth\n\nImmediate access to the “latest version” of the design as well as all previous versions.\n\n### Be on the Same Page\n\nSee all the recent project updates and changes in your dashboard’s activity feed.\n\n### Transparent History\n\nInspect when, why and who made a change through the change set history log and visual difference browser.\n\n### Ease of Use\n\nTight integration into macOS Finder, so transition from your favourite cloud storage is a breeze.\n\n### Compatibility\n\nVersions currently supports Sketch files with more formats coming soon.",
+        "topics": [
+            "Design version control"
+        ]
+    },
+    {
+        "date": "2019-11-05 15:31:54 +0000",
+        "title": "Crazy Egg",
+        "image": "https://www.uxlift.org/assets/images/crazyegg.svg",
+        "description": "Over 300,000 websites use Crazy Egg to improve what's working, fix what isn't and test new ideas.",
+        "link": "https://www.crazyegg.com",
+        "body": "### Understand the customer journey with Snapshots, Heatmaps and Recordings\n\nUse our **visual reports** and **individual session recordings** to get to know your website visitors - where they're coming from, where they're navigating to, and where they're getting stuck - so you can make design changes with confidence.\n\n### Create the perfect page with Crazy Egg A/B Testing Tool\n\nMake data-backed decisions that will impact your bottom line over time. With **Crazy Egg A/B Testing**, know with certainty you picked the correct content placement, color, image, or copy, so you can turn more visitors into customers.\n\n### Make changes quickly with Crazy Egg Editor\n\nCreate or modify content without the need for a developer! Our **editing tools** allow you to change the styles of elements like colors and fonts, or even hide them. Once you're ready, you can publish changes directly to your website.",
+        "topics": [
+            "Optimisation"
+        ]
+    },
+    {
+        "title": "Sketch",
+        "description": "The industry-leading tool for digital design.",
+        "link": "http://www.sketchapp.com",
+        "image": "https://www.uxlift.org/assets/images/sketch.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "### About Sketch\n\nCreate, prototype, collaborate and turn your ideas into incredible products with the definitive platform for digital design.\n\nFrom essential tools that help you work faster, to game-changing features that empower teams around the world, we’ve built the definitive platform for digital design.",
+        "topics": [
+            "Visual design",
+            "Prototyping",
+            "Design systems"
+        ]
+    },
+    {
+        "title": "React Studio",
+        "description": "Create app flows and components. Express their properties and data linkage visually. Get code immediately.",
+        "link": "http://www.reactstudio.com",
+        "image": "https://www.uxlift.org/assets/images/react-studio.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Design-to-code"
+        ]
+    },
+    {
+        "title": "Lucidchart",
+        "description": "A visual workspace that combines diagramming, data visualization, and collaboration to accelerate understanding and drive innovation.",
+        "link": "http://www.lucidchart.com",
+        "image": "https://www.uxlift.org/assets/images/lucid.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "### Actionable insights for every team\n\nElevate your perspective. Diagram anything—ideas, information, and processes—to drive better decisions in every area of your business.\n\n### Yes, you should diagram\n\nAnyone, in any industry and any role, can use Lucidchart. After all, everyone has been drawing out ideas since childhood. We make it easy to create powerful visuals to improve how you do business. Get a head start with over 500 templates, or drag and drop from our shape library to customize your diagram.\n\n### Make diagrams smarter with data\n\nWhen you know, you can act. Bring together diagrams and data visualization to create an actionable view. Import data from Excel, Zapier, Salesforce, LinkedIn Sales Navigator, and more, or use automated layout to generate a diagram from data.\n\n### Build a shared perspective\n\nReal-time collaboration gives your business an edge. Now you can get everyone on the same page even if they’re on different devices or operating systems. Work together and receive feedback quickly, whether your co-workers are in the same office or spread across the world.\n\n### Works where you work\n\nEnrich your existing applications when you integrate Lucidchart with leading productivity platforms such as G Suite, Atlassian, Slack, Salesforce, and Microsoft Office. With support across all major operating systems and native mobile apps, you can always move your business forward.",
+        "topics": [
+            "Wireframing",
+            "Diagramming"
+        ]
+    },
+    {
+        "date": "2020-06-10 11:18:21 +0100",
+        "title": "Figurative",
+        "image": "https://www.uxlift.org/assets/images/figurative.svg",
+        "description": "Love Figma? Love your iPad Pro? Meet Figurative.",
+        "link": "https://figurative.design",
+        "body": "Native iPadOS app for Figma.\n\n* Custom fonts\n* Pointer and keyboard support\n* Native export.",
+        "topics": [
+            "Interface design",
+            "Visual design"
+        ]
+    },
+    {
+        "date": "2019-10-15 14:12:06 +0100",
+        "title": "Contrast",
+        "image": "https://www.uxlift.org/assets/images/contrast.jpg",
+        "description": "A macOS app for quick access to WCAG color contrast ratios.",
+        "link": "https://usecontrast.com",
+        "body": "### WCAG what?\n\nThe Web Content and Accessibility Guidelines are provided as a means to create more accessible interfaces for all, especially those with visual impairment.\n\n### Instant\n\nThe entire app UI updates instantly when picking colors, making it easy to get the color contrast information you need to make informed decisions about the color of your text.\n\n### Guess no more\n\nWith this app you can see the contrast score as soon as colors are picked. No more disrupting your design flow by going online to check contrast.",
+        "topics": [
+            "Accessibility",
+            "Visual design"
+        ]
+    },
+    {
+        "date": "2019-09-06 09:40:24 +0100",
+        "title": "Mindomo",
+        "image": "https://www.uxlift.org/assets/images/mindomo.png",
+        "description": "Collaborative mind maps, concept maps, outlines and Gantt charts. Achieve your goals by visually mapping out your ideas, plans and interests.",
+        "link": "https://www.mindomo.com",
+        "body": "### Teach & learn\n\nGet a clear overview of new concepts and ideas. Develop essential learning and thinking skills.\n\n### Plan & collaborate\n\nDevelop new strategies and actions plans. Break down your complex projects into manageable tasks.\n\n### Organise your life\n\nOrganize yourself visually and gain new insights into your life for more growth, love and happiness.\n\n### Mind mapping for everything you need\n\nImprove your productivity, develop more ideas and boost the effectiveness of your learning.\n\n### Explore the unseen connections\n\nConnect the dots and understand the bigger picture with concept mapping.\n\n### Give your ideas a linear flow\n\nCreate a blueprint of your plans and set yourself up for success.\n\n### Collaborative online gantt charts\n\nEngage your team and keep your project up to speed with collaborative Gantt Charts.",
+        "topics": [
+            "Diagramming"
+        ]
+    },
+    {
+        "date": "2019-11-05 12:09:11 +0000",
+        "title": "VisualEyes",
+        "image": "https://www.uxlift.org/assets/images/VisualEyes.png",
+        "description": "Design clear, efficient and human-centered user interfaces with VisualEyes' AI-powered design assistant.",
+        "link": "https://www.visualeyes.design",
+        "body": "### Professional design insights in a click.\n\n#### Input Design\n\nUse VisualEyes plugin to upload your designs to our platform with 1 click.\n\n#### AI Algorithms\n\nOur AI algorithms predict the attention of users based on more than 20,000 images with eye tracking data, from our own proprietary and public datasets.\n\n#### Instant Results\n\nYou will get deep insights without leaving your favourite design tool in a few seconds. Your couple of days researching compressed in a single click. Isn't that a reason to celebrate?\n\n### Embrace your design process!\n\nEye-tracking has a long history. From hardware to software, to SaaS. Now design screens in a project are infinite, iterations are becoming faster, and there is no time in design teams to validate their pixels every time with eye-tracking sessions.\n\nThis is why we create predictive design models, showing you where your users will look at your designs in a fraction of a second.",
+        "topics": [
+            "User testing",
+            "Analytics"
+        ]
+    },
+    {
+        "title": "Marvel",
+        "description": "Create and share prototypes, hand-off designs to developers.",
+        "link": "http://www.marvelapp.com",
+        "image": "https://www.uxlift.org/assets/images/marvel.png",
+        "date": "2019-07-15T08:37:46+00:00",
+        "body": "",
+        "topics": [
+            "Prototyping",
+            "Developer handoff"
+        ]
+    },
+    {
+        "date": "2019-10-01 09:38:56 +0100",
+        "title": "Lookback",
+        "image": "https://www.uxlift.org/assets/images/lookback.svg",
+        "description": "Talk to your users. See how they’re using your app or website.",
+        "link": "https://lookback.io",
+        "body": "### Interview users from anywhere in the world\n\nYour team can watch and take timestamped notes to help surface valuable insights.\n\n### Or, ask users to complete tasks on their own time\n\nSend a test link to users and get a variety of recordings in your inbox.\n\n### Replace your lab with Lookback\n\nNo cameras, hard drives or expensive hardware. Use it in your lab, or on the go.",
+        "topics": [
+            "User research",
+            "User testing"
+        ]
+    },
+    {
+        "title": "Flinto",
+        "description": "Create interactive and animated prototypes of app designs.",
+        "link": "http://flinto.com",
+        "image": "https://www.uxlift.org/assets/images/flinto.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Prototyping",
+            "Animation"
+        ]
+    },
+    {
+        "date": "2019-11-29 14:50:08 +0000",
+        "title": "Notion",
+        "image": "https://www.uxlift.org/assets/images/Notion.png",
+        "description": "All-in-one workspace. Write, plan, collaborate, and get organized. Notion is all you need — in one tool.",
+        "link": "https://www.notion.so",
+        "body": "With Notion, all your work is in one place. Four tools in one. No more getting lost in tabs.\n\n### Notes & docs\n\nA simple, beautiful writing experience, with 30+ media types.\n\n### Knowledge base\n\nTurn your tribal knowledge into easy-to-find answers.\n\n### Tasks & projects\n\nKanban board, calendar, and list views. Lightweight yet flexible.\n\n### Spreadsheets & databases\n\nKeep records of everything. Capture your unique workflows.",
+        "topics": [
+            "Collaboration"
+        ]
+    },
+    {
+        "title": "UserTrack",
+        "date": "2020-05-15 00:00:00 +0100",
+        "description": "Self-hosted analytics. Increase privacy. Get better insights. Save money.",
+        "link": "https://www.usertrack.net",
+        "body": "### Attract better users\n\nUnderstand what user categories are most valuable.  \nFind out where converting users are coming from and attract more.\n\n### Reduce clutter, increase focus\n\nSee which parts of your page get the most attention.  \nKnow what elements to emphasize and what elements to remove.\n\n### Improve user experience and content\n\nUnderstand how visitors use your site by watching session replays.  \nDo they try to interact with non-clickable elements?  \nDo they leave the site after reading a specific paragraph?  \nFind the problems. Fix the problems.\n\n### Quickly see how all your websites are doing\n\nSee an overview of all your websites on a single page.  \nSee the how many visitors are live on all your sites.",
+        "topics": [
+            "Analytics"
+        ]
+    },
+    {
+        "date": "2019-11-05 11:30:25 +0000",
+        "title": "Matomo",
+        "image": "https://www.uxlift.org/assets/images/Matomo.png",
+        "description": "A powerful web analytics platform that gives you and your business 100% data ownership and user privacy protection.",
+        "link": "https://matomo.org",
+        "body": "### Complete Analytics. 100% Yours.\n\nMatomo has revolutionised what an all-in-one web analytics platform should be.\n\n* Powerful Web Analytics Platform\n* Heatmaps, Sessions Recordings, A/B Testing, Funnels, Goals, Form Analytics\n* Visitor Profiles\n* Enhanced SEO Features\n* Matomo Tag Manager\n* GDPR Manager\n* Roll-Up Reporting\n* White Label\n\n### Take back control of your data\n\nWith Matomo, the philosophy around data ownership is simple, **you own your data, no one else.**\n\nPeople believe in us for that reason, and we will continue to champion the right for people to be in control of their data. This is why Matomo is trusted and used among industries with strict compliance and data privacy regulations.\n\n* 100% data ownership\n* User-privacy protection\n* Reliable & secure\n* GDPR Manager\n* Log server analytics _(if required)_\n* Cloud host or host On-Premise\n* Export and migrate your data between hosting options at any time\n\n### 100% Accurate Data\n\n**Did you know accurate data reporting is often capped?**Meaning once your website traffic reaches a certain limit, the data then becomes a guess rather than factual.\n\nThis is where tools like Google Analytics becomes extremely limited and cashes in with their GA360 Premium suite. At Matomo, we believe all data should be reported 100% accurately, or else what’s the point?\n\n**Take the challenge:** Compare your Google Analytics data (sampled data) against your Matomo data.",
+        "topics": [
+            "Analytics"
+        ]
+    },
+    {
+        "title": "Balsamiq Wireframes",
+        "description": "Quickly sketch low-fidelity wireframes.",
+        "link": "https://balsamiq.com",
+        "image": "https://www.uxlift.org/assets/images/balsamiq.jpg",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Wireframing"
+        ]
+    },
+    {
+        "date": "2019-09-03 10:56:42 +0100",
+        "title": "Trello",
+        "image": "https://www.uxlift.org/assets/images/trello.png",
+        "description": "Trello lets you work more collaboratively and get more done.",
+        "link": "https://trello.com/home",
+        "body": "Trello’s boards, lists, and cards enable you to organize and prioritize your projects in a fun, flexible, and rewarding way.\n\n### Work with any team\n\nWhether it’s for work, a side project or even the next family vacation, Trello helps your team stay organized.\n\n### Information at a glance\n\nDive into the details by adding comments, attachments, due dates, and more directly to Trello cards. Collaborate on projects from beginning to end.\n\n### Trello your way\n\nUse Trello the way your team works best. We’ve got the flexibility & features to fit any team’s style.",
+        "topics": [
+            "Collaboration",
+            "Communication"
+        ]
+    },
+    {
+        "date": "2019-10-15 14:00:33 +0100",
+        "title": "Accessible color palette builder",
+        "description": "This is a tool to help designers build color palettes with combinations that conform with accessibility standards.",
+        "link": "https://toolness.github.io/accessible-color-matrix/",
+        "site": "Accessible color palette builder",
+        "image": "https://www.uxlift.org/assets/images/color.png",
+        "type": "Resource",
+        "preview": "",
+        "body": "",
+        "topics": [
+            "Visual design",
+            "Accessibility"
+        ]
+    },
+    {
+        "date": "2019-11-05T11:35:25+00:00",
+        "title": "Netlify Analytics",
+        "image": "https://www.uxlift.org/assets/images/netlify.png",
+        "description": "See what we see – Netlify Analytics brings you data captured directly from our servers, presented simply and beautifully.",
+        "link": "https://www.netlify.com/products/analytics/",
+        "body": "### Data without the downsides\n\nBetter accuracy, better performance, and better privacy for your users. A one-click install with no scripts required on your websites. We really like these trends.\n\n#### Data right from the source of truth\n\nMost 3rd-party analytics programs need tracking pixels, JavaScript and cookies to keep count of visitors. But Netlify Analytics is fueled by server-side data collected directly from our worldwide edge nodes—without requiring any code running on the client. That means we can provide more accurate data, right from our server logs, with zero impact to the performance of your site or the privacy of your users.\n\n#### Better performance\n\nNetlify Analytics will never impact the render time of your web applications since the work of capturing requests happens on our infrastructure, not in the browser. There’s nothing to add to your code; nothing to be downloaded by your visitors. It just works, silently and reliably, without any impact to page performance.\n\n#### More accurate numbers\n\nWith client-side analytics systems, sessions can be lost when users employ ad blockers or disable JavaScript. Since it runs on the server and not the client, Netlify Analytics paints a more accurate, complete picture of your users—we never use sampling.\n\n#### Better privacy\n\nNetlify Analytics is fully GDPR compliant. You get the data you’d expect without passing it on to a third party or making your users feel tracked across the internet.\n\n#### Even capture what can’t be found\n\nNetlify Analytics will let you know about routes on your site or app that are returning 404 (not found) errors. Use the top pages not found report to discover pages, images, or other content your visitors are requesting but not receiving.",
+        "topics": [
+            "Analytics"
+        ]
+    },
+    {
+        "title": "Supernova",
+        "description": "Supernova allows you to create animations, navigations, localizations, get production code.",
+        "link": "http://www.supernova.io",
+        "image": "https://www.uxlift.org/assets/images/supernova.svg",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Design-to-code"
+        ]
+    },
+    {
+        "title": "HotGloo",
+        "description": "Cross platform tool for creating low fidelity wireframes and prototypes.",
+        "link": "http://www.hotgloo.com",
+        "image": "https://www.uxlift.org/assets/images/hotgloo.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Wireframing",
+            "Prototyping"
+        ]
+    },
+    {
+        "title": "What Users Do",
+        "description": "Platform to help you understand how your customers engage with your website or product.",
+        "link": "http://www.whatusersdo.com",
+        "image": "https://www.uxlift.org/assets/images/whatusersdo.jpg",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "User testing",
+            "User research"
+        ]
+    },
+    {
+        "date": "2019-11-06 09:30:35 +0000",
+        "title": "Spirit",
+        "image": "https://www.uxlift.org/assets/images/spirit.png",
+        "description": "The ultimate tool to create high-quality animations directly in the browser.",
+        "link": "https://spiritapp.io",
+        "body": "### Spirit Studio\n\nSpirit Studio uses keyframes, just like other industry-standard animation tools. Simply change an element attribute, set a keyframe, rinse and repeat. It's that easy!\n\n### Live edit\n\nEdit your animations live in the browser and see changes immediately. Consider Spirit as the WYSIWYG editor for web animations. Animating is fun again, seriously.\n\n### Play / control\n\nSpirit Studio exports animation data and comes with a web player to control and play your created animations in production. Lightweight and extremely powerful.\n\n### Live Edit\n\nIt's almost plug and play, simply connect Spirit Studio to any webpage, add elements to your animation and start animating in real time.\n\n### No Code Required\n\nWith Spirit Studio you can visually compose your animations, whether you know how to code or not. Focus on the aesthetics and timing of your animation.\n\n### Iterate\n\nYou can fine-tune your animations anytime and in every detail, simply (re)connect a web page and edit your animations. Yes, even in production.\n\n### Next\n\nAs Spirit originated to be a web animation tool, we are working hard to make Spirit available for other platforms.",
+        "topics": [
+            "Animation"
+        ]
+    },
+    {
+        "date": "2019-10-01 17:01:51 +0100",
+        "title": "SoundingBox",
+        "image": "https://www.uxlift.org/assets/images/soundingbox.png",
+        "description": "Make every experience the best it can be.\nPut feedback at the center of your process with our simple yet powerful platform.",
+        "link": "https://soundingbox.com",
+        "body": "### The basics, covered.\n\nTest any site, site prototype or app prototype for **basic usability**. See and hear where people get confused, hesitate or have questions.\n\n### Advanced when you need it.\n\nAssess how people respond to visual designs, content, and even discover the features that drive engagement with **experience2**.\n\n### It's about the journey.\n\nFollow your customers as they shop for a product or service like yours. Discover hidden opportunities by understanding their thought process and behavior.",
+        "topics": [
+            "User testing"
+        ]
+    },
+    {
+        "title": "Modulz",
+        "description": "Like Sketch but with interactive components, box model layout and React export.",
+        "link": "http://www.modulz.app",
+        "image": "https://www.uxlift.org/assets/images/modulz.svg",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Design-to-code"
+        ]
+    },
+    {
+        "title": "Sympli",
+        "description": "An enterprise-grade, integrated collaboration and workflow platform for building digital products.",
+        "link": "http://www.sympli.io",
+        "image": "https://www.uxlift.org/assets/images/sympli.png",
+        "date": "2019-07-15T08:37:46+00:00",
+        "body": "",
+        "topics": [
+            "Prototyping",
+            "Developer handoff"
+        ]
+    },
+    {
+        "date": "2019-11-06 09:36:41 +0000",
+        "title": "Loceye",
+        "image": "https://www.uxlift.org/assets/images/Loceye.svg",
+        "description": "A user-friendly biometric eye tracking platform  to accurately measure visual engagement",
+        "link": "https://www.loceye.io",
+        "body": "### Upload your Designs\n\nUpload your digital assets onto the Loceye platform where they will be stored safely in the cloud. Import from any tool via PNG/JPG\n\n### Remote Recruiting\n\nStop worrying about recruiting. Loceye will share your content with real people we have recruited for your experiment based on your requested demographics.\n\n### Instant Results\n\nGet your results in less than a day. We generate a custom report with Heat Maps and more visualisations, to enrich your presentation and validate your design assumptions.\n\n### Valuable, Fast and Accurate Data\n\nWe encourage marketers, agencies, market researchers, web designers, UX experts and any other professionals who are engaged in media creation to get real world, pre-launch feedback about how users and customers see and engage with their content.\n\n### Data Driven Design Decisions (4D)\n\nWe provide the proper data outcomes in order to eliminate guesswork and help you unlock Data Driven Design Decisions.  \n  \nMeasure the visual engagement, understand the attention spots, make decisions that will increase the ROI, conversion rates and optimize the experience of your users.",
+        "topics": [
+            "Optimisation",
+            "User testing"
+        ]
+    },
+    {
+        "title": "Justinmind",
+        "description": "All-in-one prototyping tool for web and mobile apps.",
+        "link": "http://www.framer.com",
+        "image": "https://www.uxlift.org/assets/images/justinmind.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Wireframing",
+            "Prototyping"
+        ]
+    },
+    {
+        "date": "2019-10-01 09:42:13 +0100",
+        "title": "Userbrain",
+        "image": "https://www.uxlift.org/assets/images/userbrain.svg",
+        "description": "Watch videos of real people interacting with your website. Hear what users think, see what they do, and start building better products for happier customers.",
+        "link": "https://userbrain.net",
+        "body": "### Test your website with real people\n\nBeing too close to your product means issues easily go overlooked. Userbrain gives you an outside-your-four-walls experience so you can spot issues you never even thought of.\n\n### Access a worldwide pool of unbiased testers\n\nSave yourself the hassle of recruiting, managing and paying for participants to test your website. With Userbrain you get access to a worldwide pool of unbiased user test participants.\n\n### If you can link to it – you can test it\n\nTest an array of live websites, those under development, early prototypes or even your competitor’s sites on either smartphones, desktops or tablets.\n\nIf it has an URL, you can test it. No code installation is needed and the setup is done in minutes.\n\n### Continuously capture insights and make user testing a routine\n\nSpot bugs and pain points and easily share your findings with your team or stakeholders.\n\nLet your team commit to a regular schedule of user testing. That way you can empathize with your audience and in turn build better products for happier customers.",
+        "topics": [
+            "User research",
+            "User testing"
+        ]
+    },
+    {
+        "date": "2019-11-05 11:28:07 +0000",
+        "title": "Fathom",
+        "image": "https://www.uxlift.org/assets/images/Fathom.svg",
+        "description": "Simple analytics for bloggers & businesses.",
+        "link": "https://usefathom.com",
+        "body": "Over 1 million people use our software to know what’s important and popular on their websites, all from a single, blazingly-fast dashboard.\n\nStop scrolling through pages of reports and collecting gobs of personal data about your visitors, both of which you probably don’t need. Fathom is a simple and private website analytics platform that lets you focus on what's important: your business.\n\n### One screen, in real-time\n\nOur analytics platform isn’t infinite pages of reports and screens—everything is available on a single, well designed screen. Get what you need, then move on with your day.\n\n### Cookie notices not required\n\nWe don’t collect personal or invasive data about your users, nor do we use cookies, meaning you don’t have to show pesky notices to users about cookie tracking. We’re GDPR compliant too.\n\n### Grows without slowing you down\n\nOur on-demand, auto-scaling servers will never slow your site down. Our tracker file is served via our super-fast CDN, with endpoints located around the world to ensure fast page loads.\n\n### Instantly ready for huge spikes\n\nOur software is built to handle billions of page views, so huge traffic spikes are tracked easily and don’t ever slow down your site. Our fair pricing model protects you from big bills for occasional overages.",
+        "topics": [
+            "Analytics"
+        ]
+    },
+    {
+        "date": "2019-10-15 09:34:03 +0100",
+        "title": "Sim Daltonism",
+        "image": "https://www.uxlift.org/assets/images/logo16.svg",
+        "description": "The color blindness simulator. ",
+        "link": "https://michelf.ca/projects/sim-daltonism/",
+        "body": "From the perspective of a color blind person, some colors are impossible to distinguish.\n\nSim Daltonism lets you visualize colors as they are perceived with various types of color blindness.\n\nFrom the perspective of a color blind person, some colors are impossible to distinguish. Sim Daltonism lets you visualize colors as they are perceived with various types of color blindness.",
+        "topics": [
+            "Visual design",
+            "Accessibility"
+        ]
+    },
+    {
+        "date": "2019-09-17 10:07:36 +0100",
+        "title": "Button contrast checker",
+        "description": "Enter your domain and we test if your buttons have enough contrast and are compliant with WCAG 2.1.",
+        "link": "https://www.aditus.io/button-contrast-checker/",
+        "site": "Aditus",
+        "image": "https://www.uxlift.org/assets/images/www.aditus.io.ico.png",
+        "type": "Resource",
+        "preview": "",
+        "body": "",
+        "topics": [
+            "Accessibility"
+        ]
+    },
+    {
+        "date": "2019-10-15T08:32:16+00:00",
+        "title": "Colorable",
+        "description": "Take a set color palette and get contrast values for every possible combination – useful for finding safe color combinations with predefined colors and includes pass/fail scores for the WCAG accessibility guidelines.",
+        "link": "https://colorable.jxnblk.com/",
+        "site": "Colorable",
+        "image": "https://www.uxlift.org/assets/images/Screenshot 2019-10-15 at 09.33.20.png",
+        "type": "Resource",
+        "preview": "",
+        "body": "",
+        "topics": [
+            "Visual design",
+            "Accessibility"
+        ]
+    },
+    {
+        "title": "Hadron",
+        "description": "A development environment for designers and developers who work together towards the same goal.",
+        "link": "http://www.hadron.app",
+        "image": "https://www.uxlift.org/assets/images/hadron.jpg",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Design-to-code"
+        ]
+    },
+    {
+        "date": "2019-09-03T08:53:23+00:00",
+        "title": "Jekyll",
+        "image": "https://www.uxlift.org/assets/images/jekyll-logo-black-red-transparent.png",
+        "description": "Transform your plain text into static websites and blogs.",
+        "link": "https://jekyllrb.com",
+        "body": "### Simple\n\nNo more databases, comment moderation, or pesky updates to install—just _your content_.\n\n### Static\n\n[Markdown](https://daringfireball.net/projects/markdown/), [Liquid](https://github.com/Shopify/liquid/wiki), HTML & CSS go in. Static sites come out ready for deployment.\n\n### Blog-aware\n\nPermalinks, categories, pages, posts, and custom layouts are all first-class citizens here.\n\n### Free hosting with GitHub Pages\n\nSick of dealing with hosting companies? [GitHub Pages](https://pages.github.com/) are _powered by Jekyll_, so you can easily deploy your site using GitHub for free—[custom domain name](https://help.github.com/articles/about-supported-custom-domains/) and all.",
+        "topics": [
+            "Web development"
+        ]
+    },
+    {
+        "date": "2019-12-11 15:35:14 +0000",
+        "tool": "",
+        "title": "Leonardo",
+        "description": "Create beautiful, accessible, and adaptive color systems using contrast-ratio based generated colors.",
+        "link": "https://leonardocolor.io",
+        "site": "Leonardo",
+        "image": "https://www.uxlift.org/assets/images/Leonardo_Logo_sm.b48b194c.svg",
+        "type": "Resource",
+        "preview": "",
+        "body": "",
+        "topics": [
+            "Visual design",
+            "Accessibility"
+        ]
+    },
+    {
+        "title": "Hype",
+        "description": "Create HTML5 animations and interactive web content.",
+        "link": "https://tumult.com/hype/",
+        "image": "https://www.uxlift.org/assets/images/hype.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Animation"
+        ]
+    },
+    {
+        "date": "2019-11-05 15:27:56 +0000",
+        "title": "Optimizely",
+        "image": "https://www.uxlift.org/assets/images/optimizely.svg",
+        "description": "The world’s leading experimentation platform, empowering marketing and product teams to test, learn and deploy winning digital experiences, every time.",
+        "link": "https://www.optimizely.com",
+        "body": "Optimize your digital experiences and achieve the greatest return on investment in SaaS.\n\n### Built for the enterprise\n\nA single platform for both experimentation and personalization, where ideas, tests and results are easily prioritized and shared across teams.\n\n### Best in class usability\n\nConsumer-grade usability that lets you start anywhere, then rapidly scale up experiments and share data across your organization.\n\n### Eliminate digital guesswork forever\n\nApply the scientific method and patented stats to see yields jump by 5x or more across all your digital products, commerce and campaigns.",
+        "topics": [
+            "Optimisation"
+        ]
+    },
+    {
+        "date": "2019-11-05 14:41:10 +0000",
+        "title": "Bodymovin",
+        "image": "https://www.uxlift.org/assets/images/bodymovin.png",
+        "description": "An After Effects extension to export animations for web. ",
+        "link": "https://aescripts.com/bodymovin/",
+        "body": "Animations are exported as .json files that use the bodymovin.js player that comes along with the plugin. \n\nYou can render animations in the browser on svg, canvas and html. It supports a subset of After Effects features. Animations can also be played natively on iOS and Android through Lottie",
+        "topics": [
+            "Web development",
+            "Animation"
+        ]
+    },
+    {
+        "title": "Abstract",
+        "description": "One place to version, manage, and collaborate on your Sketch files.",
+        "link": "http://www.goabstract.com",
+        "image": "https://www.uxlift.org/assets/images/abstract.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "#### All your Sketch files in one place\n\nNo more hunting through shared folders. Abstract is a safe home for your Sketch design and library files, a single source of truth for your design team’s work.\n\n#### Version control for Sketch files\n\nStop relying on creative file-naming conventions. Abstract removes the friction of managing your team’s growing Sketch design files. It’s not just version control; it’s source control you can trust.\n\n#### No more conflicted copies\n\nWork on the same set of Sketch files without losing anyone’s work. Abstract allows multiple designers to work on the same file without fearing overwritten changes.booklink",
+        "topics": [
+            "Design version control",
+            "Developer handoff",
+            "Design systems"
+        ]
+    },
+    {
+        "date": "2019-11-01 13:32:05 +0000",
+        "title": "Catalog",
+        "image": "https://www.uxlift.org/assets/images/Catalog.svg",
+        "description": "Combine design documentation with real, live components in one single place, making collaboration between designers and developers seamless.",
+        "link": "https://www.catalog.style",
+        "body": "Simple Editing\n\nCatalog makes creating and maintaining a style guide as simple as editing plain text files with your favorite editor. Using Markdown formatting allows you to write gorgeous content using an easy-to-learn syntax.\n\n### Beautiful Presentation\n\nCatalog is designed from the ground up to put your design system into the right light. The clean and simple design works beautifully across devices and screen sizes.\n\n### Direct Integration\n\nCatalog integrates right with React applications and displays live components and code snippets in your style guide. So you can stop the copy-and-paste madness.\n\n### Zero Lock-in\n\nCatalog is open source and free to use, making it possible for you to add, maintain, or replace it depending on your changing requirements.\n\n### Versatile\n\nCatalog does not enforce any specific taxonomy or structure: Build upon established principles, like Atomic Design, or run your very own pattern language.\n\n### Extensible & Customizable\n\nCatalog is built using a modular architecture. It can be extended with your own plugins and customized to fit your needs.",
+        "topics": [
+            "Web development",
+            "Design systems"
+        ]
+    },
+    {
+        "title": "InVision Studio",
+        "description": "Web-based design tool. Invision's version of Sketch.",
+        "link": "https://www.invisionapp.com/studio",
+        "image": "https://www.uxlift.org/assets/images/inv.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Visual design"
+        ]
+    },
+    {
+        "date": "2019-10-15 10:55:39 +0100",
+        "title": "Accessible Colours",
+        "description": "We evaluate your color combination using the WCAG 2.0 guidelines for contrast accessibility. If your combination does not meet the guidelines, we find the closest accessible combination by modifying the color lightness.",
+        "link": "https://accessible-colors.com",
+        "site": "Accessible Colours",
+        "image": "https://www.uxlift.org/assets/images/ac.png",
+        "type": "Resource",
+        "preview": "",
+        "body": "",
+        "topics": [
+            "Visual design",
+            "Accessibility"
+        ]
+    },
+    {
+        "title": "Adobe XD",
+        "description": "Adobe's UX design tool. Basically their answer to Sketch.",
+        "link": "http://www.adobe.com/uk/products/experience-design.html",
+        "image": "https://www.uxlift.org/assets/images/xd.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Visual design",
+            "Prototyping",
+            "Developer handoff"
+        ]
+    },
+    {
+        "title": "Zeplin",
+        "description": "Handoff designs and styleguides to developers from all major design tools.",
+        "link": "http://www.zeplin.io",
+        "image": "https://www.uxlift.org/assets/images/zeplin.png",
+        "date": "2019-07-15T08:37:46+00:00",
+        "body": "",
+        "topics": [
+            "Developer handoff"
+        ]
+    },
+    {
+        "title": "Lona",
+        "description": "Tools for building design systems and using them to generate cross-platform code, Sketch files, and other artifacts.",
+        "link": "https://github.com/airbnb/Lona",
+        "image": "https://www.uxlift.org/assets/images/lona.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Design-to-code"
+        ]
+    },
+    {
+        "date": "2020-06-10 11:21:35 +0100",
+        "title": "Keyframes",
+        "image": "https://www.uxlift.org/assets/images/keyframes.png",
+        "description": "Keyframes helps you write better CSS. Dead simple visual tools to help you generate CSS for your projects.",
+        "link": "https://keyframes.app",
+        "body": "### Animations\n\nCreate basic or complex CSS @keyframe animations with a visual timeline editor similar to video-editing software.\n\n### Shadows\n\nCreate single or multi-layer box shadows just by moving some sliders. Get the CSS output instantly.\n\n### Colors\n\nPick your favorite colors, convert between hex and rgb, and create & save palettes.",
+        "topics": [
+            "Web development",
+            "Animation"
+        ]
+    },
+    {
+        "date": "2020-04-20T10:24:20+01:00",
+        "title": "Mural",
+        "image": "https://www.uxlift.org/assets/images/mural.png",
+        "description": "MURAL is a digital workspace for visual collaboration.",
+        "link": "https://mural.co",
+        "body": "### **Solve important problems**\n\nMURAL enables innovative teams to think and collaborate visually to solve important problems. People benefit from MURAL’s speed and ease of use in creating diagrams, which are popular in design thinking and agile methodologies, as well as tools to facilitate more impactful meetings and workshops.",
+        "topics": [
+            "Diagramming",
+            "Collaboration"
+        ]
+    },
+    {
+        "date": "2019-11-29 10:51:20 +0000",
+        "title": "Vectornator",
+        "image": "https://www.uxlift.org/assets/images/Vectornator.png",
+        "description": "Vectornator Pro makes your designs more powerful. Visualize every detail, explore the space and let your creativity run wild.",
+        "link": "https://vectornator.io",
+        "body": "### Powerful tools to match your creativity.\n\n#### Real time collaboration\n\nWork more efficiently across different teams without the hassle of sending design files, merging them and keeping track of different versions. Everybody from your team can work on the same document and it works like magic. \n\nNeed to share a design with a client? Just press the Share button within Vectornator and send them the link. They’ll be able to add comments and you’ll see them right inside Vectornator.\n\n#### Artboards\n\nMeet our solid set of vector tools for a very flexible workflow to create all the different types of designs in a single document as UI design, webpages, posters...\n\n#### Autotrace\n\nOur metal accelerated real-time rendering engine runs on the 64Bit architecture and delivers a truly professional performance that makes Vectornator worthy of its Pro name-tag. This lets you trace a complex image in seconds, while it may take several minutes in different Mac apps.\n\n#### Pen tool\n\nThe most crucial tool for any vector editor has always been the pen tool. Design your next masterpiece today by seamlessly creating precise paths and anchor points to develop sharp edges or beautiful curves.\n\n#### Typography\n\nGain full control over your text's line height, kerning, tracking and more. Convert your text to curves or attach them to a path. You can even import your own custom fonts.\n\n#### Boolean, mask, group\n\nMixing elements on a vector tool should be super easy. And for that, we got you cover with our Pro Features as Boolean Operations, Grouping, Masking.",
+        "topics": [
+            "Visual design"
+        ]
+    },
+    {
+        "date": "2019-10-01 10:31:28 +0100",
+        "title": "Playbook UX",
+        "image": "https://www.uxlift.org/assets/images/playbookux.jpg",
+        "description": "Watch videos of real people interacting with your product, prototype, website, concept, and more. PlaybookUX allows you to unlock powerful video-based feedback your target audience.",
+        "link": "https://www.playbookux.com",
+        "body": "### Gain valuable user feedback by testing products, concepts, websites, and prototypes.\n\nOur software handles recruiting, incentivizing, transcribing, and analyzing the videos with A.I.\n\n### Get User Insights to Prioritize the Right Features\n\nOur easy to usability testing software is built for everyone – Researchers, Designers, Founders, Product Managers, Marketers, to name a few! We know it’s challenging to determine which features to build next, or which concept resonates with users. Playbook UX allows you to test and validate your assumptions to make informed decisions. We’ll point out key insights so you know what to add to your product roadmap.\n\n### Build Products That Customers Love\n\nPlaybookUX allows you to get answers from a verified audience that meets your testing profile so you can keep up with the ever-changing customer demands. Our style of iterative testing allows you to make better product decisions. Informed decisions lead to better products.",
+        "topics": [
+            "User testing"
+        ]
+    },
+    {
+        "title": "UserZoom",
+        "description": "All-in-one platform for agile UX insights.",
+        "link": "http://www.userzoom.com",
+        "image": "https://www.uxlift.org/assets/images/userzoom.svg",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "User testing",
+            "User research"
+        ]
+    },
+    {
+        "title": "Haiku",
+        "description": "Create React and Vue components directly from your designs.",
+        "link": "http://www.haiku.ai",
+        "image": "https://www.uxlift.org/assets/images/haiku.svg",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Design-to-code"
+        ]
+    },
+    {
+        "title": "Flow",
+        "description": "Animate Sketch designs in seconds and export production ready code.",
+        "link": "https://createwithflow.com/",
+        "image": "https://www.uxlift.org/assets/images/flow.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Design-to-code",
+            "Animation"
+        ]
+    },
+    {
+        "title": "Hotjar",
+        "description": "Hotjar is a new and easy way to truly understand your web and mobilesite visitors.",
+        "link": "https://www.hotjar.com",
+        "image": "https://www.uxlift.org/assets/images/images.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Analytics",
+            "User research"
+        ]
+    },
+    {
+        "date": "2019-10-01 09:35:25 +0100",
+        "title": "dscout",
+        "image": "https://www.uxlift.org/assets/images/dscout.png",
+        "description": "dscout’s remote research platform uses a mobile app and +100K eager participants to efficiently capture in-the-moment video and make insights easy to synthesize and share.",
+        "link": "https://dscout.com",
+        "body": "### In-context Insights\n\nMeet the people that matter to you in the moments that matter to them with dscout.\n\n### See moments that matter\n\ndscout Diary shows you people’s experiences, in context and as they happen, using the one thing they have with them 24/7: their mobile phones.\n\n### In conversation. In context.\n\ndscout Live lets you interview people remotely, in context and in depth, with a video tool designed expressly for researchers. Talk to more people, more often, with more impact.\n\n### Easily find the right people\n\ndscout Recruit makes it simple to find the right participants for your in-context research. Get in-field faster by tapping our pool of 100,000+ eager scouts.",
+        "topics": [
+            "User testing"
+        ]
+    },
+    {
+        "date": "2019-09-06 11:00:53 +0100",
+        "title": "Coggle",
+        "image": "https://www.uxlift.org/assets/images/coggle.png",
+        "description": "Coggle is an online tool for creating and sharing mindmaps. Produce beautiful notes quickly and easily. Share them with friends and colleagues to work on your ideas together.",
+        "link": "https://coggle.it",
+        "body": "### Unleash your creativity\n\nProduce beautiful notes quickly and easily. Share them with friends and colleagues to work on your ideas together.\n\n### Powerful Online Flow Charts\n\nUse Coggle to map out your processes, systems and algorithms using our powerful new flowcharting features.\n\n### Collaborative Mind Maps & Flow Charts\n\nCoggle is an online tool for creating and sharing mindmaps and flow charts. It works online in your browser: there's nothing to download or install.",
+        "topics": [
+            "Diagramming"
+        ]
+    },
+    {
+        "date": "2019-11-05 09:59:03 +0000",
+        "title": "Simple Analytics",
+        "image": "https://www.uxlift.org/assets/images/simpleanalytics.svg",
+        "description": "Simple, clean, and friendly analytics for businesses, marketers and developers.",
+        "link": "https://simpleanalytics.com",
+        "body": "We show you the essentials: page views, referrers, top pages, and screen sizes. We enrich this data with useful info like original Tweets.\n\nWe don't use cookies or collect any personal data. So no cookie banners, GDPR, CCPA, or PECR to worry about.\n\nWhen a service is free you are the product. We won't ever sell your data. As a result, we need to charge.\n\n### Simple\n\nFor easy setup, just add our 2 lines to your page and you're done! By default our script supports modern frameworks like Vue, Angular and React\n\n### Clean\n\nTo keep it simple we only offer a few metrics:  \npage views, referrers, top pages, and screen sizes.  \nThese metrics will provide enough basic insights for most websites.\n\n### Friendly\n\nWe designed our analytics in a way that doesn't track your users. We don't collect any data that’s not necessary.",
+        "topics": [
+            "Analytics"
+        ]
+    },
+    {
+        "title": "Laska",
+        "description": "A visual editor to create user interfaces for React Native.",
+        "link": "http://www.laska.io",
+        "image": "https://www.uxlift.org/assets/images/laska.svg",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Design-to-code"
+        ]
+    },
+    {
+        "title": "UXPin",
+        "description": "Collaborative online UX design and prototyping.",
+        "link": "http://www.uxpin.com",
+        "image": "https://www.uxlift.org/assets/images/uxp.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Wireframing",
+            "Prototyping"
+        ]
+    },
+    {
+        "date": "2019-11-06 09:50:42 +0000",
+        "title": "RealEye",
+        "image": "https://www.uxlift.org/assets/images/realeye-1.png",
+        "description": "Identify exactly what people focus on with the power of webcam eye-tracking.",
+        "link": "https://www.realeye.io",
+        "body": "Test your design hypothesis and make decisions based on numbers not on _\"what looks better\"_\n\n### Step 1 – Upload items\n\nUpload **any PNG/JPG image**  \nor provide URL for screenshot.\n\n### Step 2 – Test with real people\n\n**Invite your own or hire RealEye testers**  \nAll they need to have is a laptop with webcam\n\n### Step 3 – Same day results\n\nInstantly find out what is eye-catching and identify opportunities for improvement.",
+        "topics": [
+            "Optimisation",
+            "User testing"
+        ]
+    },
+    {
+        "title": "Affinity Designer",
+        "description": "The fastest, smoothest, most precise vector graphic design software available for Mac, Windows and iPad.",
+        "link": "https://affinity.serif.com/en-gb/designer/",
+        "date": "2019-07-15 09:37:46 +0100",
+        "image": "https://www.uxlift.org/assets/images/affinity.png",
+        "body": "### Real-time performance\n\n• Panning and zooming is always live at 120fps\n• Live gradients, transforms, effects and adjustments\n• Optimised for documents of any complexity, zoom to over 1,000,000% for absolute precision\n• Live pixel and retina view of vector artwork, wireframe view, split screen mode\n• Seamless switching between tools and editing modes for frustration-free design\n\n### Precise vector tools\n\n• Rock solid vector tools that work just the way you want them to\n• The best pen tool, node tool, curve editing and smart shape tools available\n• Pencil and brush stabilisation for drawing super-smooth curves freehand\n• Non-destructive Boolean operations\n• Live effects, blend modes and image adjustments\n• Incredibly smooth gradient and transparency controls\n\n### Raster or vector, you decide\n\n• With a single tap switch between vector and raster workspaces\n• Use the strengths of vector and raster behaviours for the best of both worlds\n• High quality raster tools for texturing, masking and finishing artwork. Create your own brushes too\n• True creative freedom not found in other apps\n\n### Sophisticated typography\n\n• Flexible text handling including comprehensive support for OpenType\n• Artistic text and text frames\n• Full control over character and paragraph styles\n• Flow text along any drawn path",
+        "topics": [
+            "Visual design",
+            "Wireframing"
+        ]
+    },
+    {
+        "date": "2019-11-05 14:35:27 +0000",
+        "title": "Lottie",
+        "image": "https://www.uxlift.org/assets/images/Lottie.png",
+        "description": "An iOS, Android, and React Native library that renders After Effects animations in real time, allowing apps to use animations as easily as they use static images.",
+        "link": "https://airbnb.design/lottie/",
+        "body": "### Why Lottie?\n\n#### Flexible After Effects features\n\nWe currently support solids, shape layers, masks, alpha mattes, trim paths, and dash patterns. And we’ll be adding new features on a regular basis.\n\n#### Manipulate your animation any way you like\n\nYou can go forward, backward, and — most importantly — you can program your animation to respond to any interaction.\n\n#### Small file sizes\n\nBundle vector animations within your app without having to worry about multiple dimensions or large file sizes. Alternatively, you can decouple animation files from your app’s code entirely by loading them from a JSON API.",
+        "topics": [
+            "Web development",
+            "Animation"
+        ]
+    },
+    {
+        "title": "InVision",
+        "description": "Share prototypes, get feedback and hand-off to developers.",
+        "link": "http://www.invisionapp.com",
+        "image": "https://www.uxlift.org/assets/images/inv.png",
+        "date": "2019-07-15T08:37:46+00:00",
+        "body": "",
+        "topics": [
+            "Prototyping",
+            "Developer handoff"
+        ]
+    },
+    {
+        "date": "2019-10-15 09:37:46 +0100",
+        "title": "Color Oracle",
+        "image": "https://www.uxlift.org/assets/images/icon48x48.png",
+        "description": "Design for the color impaired. A free color blindness simulator for Windows, Mac and Linux.",
+        "link": "https://colororacle.org/",
+        "body": "Color Oracle is It takes the guesswork out of designing for color blindness by showing you in real time what people with common color vision impairments will see.  \n  \nColor Oracle applies a full screen color filter to art you are designing, independently of the software in use. Eight percent of all males are affected by color vision impairment – make sure that your graphical work is readable by the widest possible audience.",
+        "topics": [
+            "Accessibility",
+            "Visual design"
+        ]
+    },
+    {
+        "title": "BuilderX",
+        "description": "BuilderX is a screen design tool which codes React Native for you.",
+        "link": "http://www.builderx.io",
+        "image": "https://www.uxlift.org/assets/images/builderx-logo.svg",
+        "date": "2019-07-15T09:37:46+01:00",
+        "body": "### Beautiful, readable & production-ready code\n\nDesigners and developers on one platform\n\n#### Teams & share via link\n\nBuilt something amazing? Share it with the team! Be it a developer or someone who you want to share your progress with, the projects can be shared by a simple link.\n\n#### Sketch to React Native!\n\nSeamlessly convert Sketch designs to React Native & React\n\n#### Flex layout\n\nDevelopers like it Flex. Designers like it Absolute. Though BuilderX tries to automatically convert Absolute to Flex, you can specifically define Flex Layouts in BuilderX.\n\n#### Component export\n\nTake what you need. Not every developer is a fan of the folder structure we generate. So why compromise? Just export the parts what you like as Components.\n\n#### Component library\n\nBuilderX has a range of components to make design process easier.Create custom UI and use them across the project.",
+        "topics": [
+            "Design-to-code"
+        ]
+    },
+    {
+        "title": "Axure RP",
+        "description": "The industry standard tool for creating wireframes and interactive prototypes.",
+        "link": "http://www.axure.com",
+        "image": "https://www.uxlift.org/assets/images/axure.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "### About Axure RP\n\nCreate flowcharts, wireframes, mockups, user journeys, personas, idea boards and more. Quickly drag and drop elements from built-in or custom libraries to create your diagrams. Then, style it with fills, gradients, line styles, and text formatting.\n\nAnnotate your diagrams and prototypes to specify functionality, keep track of tasks, or store project information. Organize your notes into separate fields for different audiences. Choose which notes to present in the HTML or in an auto-generated Word document that includes screenshots.",
+        "topics": [
+            "Wireframing",
+            "Prototyping"
+        ]
+    },
+    {
+        "date": "2019-11-01 17:13:12 +0000",
+        "title": "Fractal",
+        "image": "https://www.uxlift.org/assets/images/fractal.png",
+        "description": "Build. Document. Integrate. Powerful component libraries & styleguides that fit the way you work.",
+        "link": "https://fractal.build",
+        "body": "### Flexible\n\nComplete freedom to use whichever templating language, build tool and organisational model best suits your project.\n\n### Integrated\n\nSeamlessly integrate your component library into your site, app or build tools by including it as a dependency in your build.\n\n### Data-driven\n\nComponent preview data can be hardcoded or dynamically generated any way you like - for instance using libraries such as Faker.",
+        "topics": [
+            "Web development",
+            "Design systems"
+        ]
+    },
+    {
+        "date": "2019-09-06T09:37:50+01:00",
+        "title": "MindMeister",
+        "image": "https://www.uxlift.org/assets/images/mindmeister.png",
+        "description": "MindMeister is an online mind mapping tool that lets you capture, develop and share ideas visually. ",
+        "link": "https://www.mindmeister.com",
+        "body": "### Collaborate Anywhere\n\nMind mapping in a team setting has never been easier. MindMeister lets you share your mind maps with as many friends or colleagues as you want and collaborate with them in real-time. Whether you're in a face-to-face meeting or thousands of miles apart, everyone can see changes made in the mind map immediately. Collaborators can quickly comment on topics, vote on ideas or discuss changes in our integrated chat.\n\n### Stunning Presentations\n\nVisualizing your ideas is the most powerful way to communicate them to others. With MindMeister's built-in presentation mode you turn mind maps into beautiful, dynamic slideshows within seconds. As soon as you're done you can export the slides as PNGs, embed the whole presentation on your website, or even broadcast it live to your collaborators online.\n\n### Simple Project Management\n\nMindMeister seamlessly integrates with MeisterTask, the intuitive online task and project management app for teams. As soon as you've completed the brainstorming and planning phase in MindMeister, you can simply drag and drop your ideas into a connected MeisterTask project, where they are turned into actionable tasks.",
+        "topics": [
+            "Diagramming"
+        ]
+    },
+    {
+        "title": "Plant",
+        "description": "Organise Sketch files, keep track of versions, maximise productivity.",
+        "link": "http://www.plantapp.io",
+        "image": "https://www.uxlift.org/assets/images/plant.svg",
+        "date": "2019-07-15T08:37:46+00:00",
+        "body": "### Sketch App ready\n\nStay in your workspace with less distraction and more creativity.\n\n### Web accessible\n\nInvite designers to a project, sync changes between each other, and see the project grow.\n\n### Detailed version history\n\nPlant keeps all versions you sync to it, and makes version details available to all members.\n\n### Versioning\n\nSend the whole file or only the artboards you want to share.\n\n### Conflict resolution\n\nWhen changes collide, Plant will prompt you to choose, combine or create new artboard.\n\n### Compare\n\nView difference between any two versions.\n\n### Secure\n\nAll information transferred encrypted and stored safely.",
+        "topics": [
+            "Developer handoff",
+            "Design version control"
+        ]
+    },
+    {
+        "title": "GatherContent",
+        "description": "Unify content creation, workflow, and collaboration.",
+        "link": "https://gathercontent.com",
+        "image": "https://www.uxlift.org/assets/images/gathercontent.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Collaboration",
+            "Content strategy"
+        ]
+    },
+    {
+        "date": "2019-11-01 09:46:29 +0000",
+        "title": "Storybook",
+        "image": "https://www.uxlift.org/assets/images/storybook.js.org.ico.png",
+        "description": "An open source tool for developing UI components in isolation for React, Vue, and Angular. It makes building stunning UIs organized and efficient.",
+        "link": "https://storybook.js.org",
+        "body": "### Deliver robust UIs\n\nStorybook provides a sandbox to build UI components in isolation so you can develop hard-to-reach states and edge cases.  \n  \n**Build components in isolation**\n\nCreate components without needing to stand up screens, fuss with data, or build business logic.\n\n**Mock hard to reach use cases**\n\nRender components in key states that are tricky to reproduce in an app.\n\n**Document use cases as stories**\n\nSave use cases as stories in plain JavaScript to revisit during development, testing, and QA.\n\n**Supercharge your workflow with addons**\n\nUse addons to build UI faster, document a component library, and streamline your workflow.\n\n### Ship components with confidence\n\nStorybook makes it easy to keep track of edge cases and as a result you get tests for free.\n\n**Ensure consistent user experiences**\n\nWhenever you write a story you get a handy visual spec. Quickly browse stories to make sure your UI looks right.\n\n**Auto-detect code regressions**\n\nGet code snapshot tests out of the box with Storyshots, an official addon.\n\n**Unit test components**\n\nReuse stories in your unit tests to confirm nuanced functionality.\n\n**Catch UI changes down to the pixel every commit**\n\nPinpoint UI changes with visual testing tools.\n\n### Share and reuse everything\n\nStop reinventing the wheel. Get a birds-eye view of your UI library to find components to reuse in your project.\n\n**Find any component in your app**\n\nStorybook is a searchable, single source of truth for your UI components.\n\n**Get timely feedback during development**\n\nCollaborate on UI implementation with your team by deploying Storybook to the cloud.\n\n**Share components across screens and apps**\n\nEvery story is a use case that your team can find and reuse.\n\n**Generate a styleguide automatically**\n\nWrite Markdown/MDX to generate a customizable site that is perfect for component libraries and design systems.",
+        "topics": [
+            "Web development",
+            "Design systems"
+        ]
+    },
+    {
+        "date": "2020-06-24 10:30:42 +0100",
+        "title": "Sketch2React",
+        "image": "https://www.uxlift.org/assets/images/sketch2react.svg",
+        "description": "A 100% free front-end solution for Sketch app that lets you build real code prototypes and even very simple websites. No plugins, only using the built-in tools.",
+        "link": "https://sketch2react.io",
+        "body": "Since our exported code is clean & beautifully organised you can take it even further, adding more complex **HTML5 & React components.**\n\n##### **Never Leave Sketch**\n\nYou go from **design to React prototypes** without ever leaving Sketch.\n\n##### **Fully Responsive Prototypes**\n\nA great way to get started learning our framework is to use it for what we call **Quick Responsive Prototyping.**\n\n##### **Design Components**\n\nDesign and **style your own prototype React components**like text, buttons, form fields, navigation.\n\n##### **True React Export**\n\n**React Vanilla or our version?** The choice is yours.\n\n##### **Design Grids**\n\nSince we run Bootstrap 4 in the background you can **design and export real code grids** to your developers.\n\n##### **Add CSS Plugins**\n\nAdd custom made **CSS animations**, overrides and effects as easy as **1-2-3.**\n\n##### **Real Code Constraints**\n\nSince you're working with **real code** you get real code constraints, which is a great thing..\n\n##### **Export to HTML5**\n\nPump out **Bootstrap 4 powered websites** for free like there's no tomorrow. Connect external CMS for even more awesomeness.",
+        "topics": [
+            "Design-to-code"
+        ]
+    },
+    {
+        "date": "2019-09-03T08:58:35+00:00",
+        "title": "Hugo",
+        "image": "https://www.uxlift.org/assets/images/iu.png",
+        "description": "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.",
+        "link": "https://gohugo.io",
+        "body": "#### Blistering Speed\n\nWhat's modern about waiting for your site to build? Hugo is the fastest tool of its kind. At <1 ms per page, the average site builds in less than a second.\n\n#### Robust Content Management\n\nFlexibility rules. Hugo is a content strategist's dream. Hugo supports unlimited content types, taxonomies, menus, dynamic API-driven content, and more, all without plugins.\n\n#### Shortcodes\n\nHugo's shortcodes are Markdown's hidden superpower. We love the beautiful simplicity of markdown’s syntax, but there are times when we want more flexibility. Hugo shortcodes allow for both beauty and flexibility.\n\n#### Built-in Templates\n\nHugo has common patterns to get your work done quickly. Hugo ships with pre-made templates to make quick work of SEO, commenting, analytics and other functions. One line of code, and you're done.\n\n#### Multilingual and internationalisation\n\nPolyglot baked in. Hugo provides full i18n support for multi-language sites with the same straightforward development experience Hugo users love in single-language sites.",
+        "topics": [
+            "Web development"
+        ]
+    },
+    {
+        "date": "2019-10-15 10:51:17 +0100",
+        "title": "Color Safe",
+        "description": "Empowering designers with beautiful and accessible color palettes based on WCAG Guidelines of text and background contrast ratios.",
+        "link": "http://colorsafe.co",
+        "site": "Colorsafe",
+        "image": "https://www.uxlift.org/assets/images/accessible-artwork@2x.png",
+        "type": "Resource",
+        "preview": "",
+        "body": "",
+        "topics": [
+            "Visual design",
+            "Accessibility"
+        ]
+    },
+    {
+        "title": "Principle",
+        "description": "Create animated user interfaces and prototypes.",
+        "link": "http://principleformac.com",
+        "image": "https://www.uxlift.org/assets/images/Principle.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Prototyping",
+            "Animation"
+        ]
+    },
+    {
+        "date": "2019-11-05 15:45:59 +0000",
+        "title": "Convert",
+        "image": "https://www.uxlift.org/assets/images/convert.jpg",
+        "description": "A Low Stress, High Return A/B Testing Tool",
+        "link": "https://www.convert.com",
+        "body": "### Fully Privacy Compliant\n\nConvert’s tool is one of the only enterprise solutions that stores no personal data in the default setting, and uses only first party cookies for accurate visitor tracking. Test without consent, keep optimizing & we have your back.\n\n### Fast & Flicker Free\n\nConversionXL studies show that we are one of the fastest testing tools out there. Yet we’ve beaten the blink that skews results and damages your reputation.\n\n### 4X Faster, Expert Support\n\nEndless waits are over. When you ask us for help, you talk to human experts who know our tool inside out, value your time & don’t give up till you’re satisfied.\n\n### Limitless Testing\n\nMost plans come with unlimited projects, tests and domains. Plus advanced developer options and top notch training add-ons. If you can think it, you can test it.",
+        "topics": [
+            "Optimisation"
+        ]
+    },
+    {
+        "title": "Mokup",
+        "description": "Create prototypes that look and feel like real apps.",
+        "link": "https://mokup.app",
+        "image": "https://www.uxlift.org/assets/images/mokup.png",
+        "date": "2019-07-15 09:37:46 +0100",
+        "body": "",
+        "topics": [
+            "Prototyping",
+            "Animation"
+        ]
+    },
+    {
+        "date": "2020-08-19 11:17:08 +0100",
+        "title": "Kinopio",
+        "image": "https://www.uxlift.org/assets/images/kinopio.png",
+        "description": "Kinopio is the visual thinking tool for new ideas and hard problems.",
+        "link": "https://kinopio.club",
+        "body": "By making it easy to get your thoughts out and form connections organically, Kinopio works how our brains work.",
+        "topics": [
+            "Diagramming"
+        ]
+    }
+]
