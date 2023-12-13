@@ -18,11 +18,9 @@ class Command(BaseCommand):
             for data in sites_data:
                 site_slug = slugify(data['title'])
                 site, created = Site.objects.get_or_create(slug=site_slug)
-
                 site.title = data['title']
-                site.description = data['description']
-                site.url = data['url']
-                site.feed_url = data.get('feed_url')
+                site.content = data['description']
+                site.url = data['link']
 
                 # Handle site type tags
                 if 'site_type' in data and isinstance(data['site_type'], list):
