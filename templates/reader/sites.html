@@ -27,14 +27,14 @@
         </p>
         
       </div>
-    
-      <div class="">
+      {% if site.site_icon.url %}
         <img
           alt="{{ site.title }}"
           src="{{ site.site_icon.url }}"
-          class="h-20 w-20 rounded-lg object-contain"
+          class="h-16 w-16 rounded-lg object-contain"
         />
-      </div>
+        {% endif %}
+
     </div>
     <div class="mt-4">
       {% for tag in site.site_type.all %}

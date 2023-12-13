@@ -1,5 +1,5 @@
 <a
-href="{% url 'tool_page' tool_slug=tool.slug %}" hx-get="{% url 'tool_page' tool_slug=tool.slug %}" hx-target="body" hx-push-url="true"
+href="{% url 'tool_page' tool_slug=tool.slug %}" hx-get="{% url 'tool_page' tool_slug=tool.slug %}" hx-target="body" hx-push-url="true" hx-indicator=".progress"
 class="group flex flex-col p-4 md:p-5bg-white border shadow-md rounded-xl hover:shadow-lg transition dark:bg-slate-900 dark:border-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
 >
 <div class="sm:flex sm:justify-between sm:gap-4">
