@@ -3,7 +3,13 @@
 {% load static %}
 {% block title %}Topics{% endblock title %}
 {% block content %}
-<h1>{{ tool.title }}</h1>
+<div class="pb-24 sm:pb-32">
+  <div class="mx-auto max-w-7xl">
+      <h1 class="mt-2 text-4xl font-bold text-gray-900 sm:text-6xl">{{ tool.title }}</h1>
+      <p class="mt-6 text-lg leading-8 text-gray-600">{{ tool.description }}</p>
+  </div>
+</div>
+
 <ul>
     {% for post in posts %}
     <li>{{ post.title }}</li>  <!-- Adjust based on your Post model fields -->

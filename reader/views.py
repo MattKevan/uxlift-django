@@ -9,7 +9,7 @@ from django.views import View
 import requests
 from bs4 import BeautifulSoup
 from django.http import HttpResponse
-from django.db.models import Q
+from django.db.models import Q, Count
 from urllib.parse import urlparse
 
 @login_required
@@ -97,14 +97,13 @@ def topic_page(request, tag_slug):
     return render(request, 'reader/topic-page.html', {
         'posts': posts,
         'tools': tools,
-        'tag_name': tag.name,
-        'tag_slug': tag.slug
+        'tag':tag
     })
 
 # Tools landing page
 def tools(request):
-    tags = Topic.objects.all()
-    tools = Tool.objects.all()
+    tools = Tool.objects.all().order_by('-date')[:9]
+    tags = Topic.objects.annotate(num_tools=Count('tool')).filter(num_tools__gt=0)
     return render(request, 'reader/tools.html', {'tags': tags, 'tools':tools})
 
 # Individual tool page
