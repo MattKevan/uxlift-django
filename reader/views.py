@@ -1,4 +1,6 @@
 from django.contrib.auth.decorators import login_required
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+
 from django.shortcuts import render, redirect, get_object_or_404
 from .forms import SiteForm, PostForm
 from django.contrib import messages
@@ -87,17 +89,32 @@ def topics(request):
 
 
 def topic_page(request, tag_slug):
-    # Retrieve the tag object. Adjust 'SharedTopic' to your tag model name
+    # Retrieve the tag object
     tag = get_object_or_404(Topic, slug=tag_slug)
 
-    # Filter posts and tools by the tag name or slug
-    posts = Post.objects.filter(topics__name=tag.name)
+    # Filter posts by the tag name or slug
+    posts_list = Post.objects.filter(topics__name=tag.name)
+
+    # Set up pagination
+    paginator = Paginator(posts_list, 20)  # 20 posts per page
+
+    page = request.GET.get('page')
+    try:
+        posts = paginator.page(page)
+    except PageNotAnInteger:
+        # If page is not an integer, deliver first page
+        posts = paginator.page(1)
+    except EmptyPage:
+        # If page is out of range, deliver last page of results
+        posts = paginator.page(paginator.num_pages)
+
+    # Filter tools by the tag name or slug
     tools = Tool.objects.filter(topics__name=tag.name)
 
     return render(request, 'reader/topic-page.html', {
         'posts': posts,
         'tools': tools,
-        'tag':tag
+        'tag': tag
     })
 
 # Tools landing page

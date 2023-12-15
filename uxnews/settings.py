@@ -20,7 +20,8 @@ CLOUDINARY_API_SECRET = os.getenv('CLOUDINARY_API_SECRET')
 cloudinary.config(
   cloud_name = CLOUDINARY_CLOUD_NAME,
   api_key = CLOUDINARY_API_KEY,
-  api_secret = CLOUDINARY_API_SECRET
+  api_secret = CLOUDINARY_API_SECRET,
+  secure = True
 )
 
 import cloudinary.uploader
@@ -81,7 +82,15 @@ SERIALIZATION_MODULES = {
     'python': 'tagulous.serializers.python',
     'yaml':   'tagulous.serializers.pyyaml',
 }
-
+TAGULOUS_AUTOCOMPLETE_JS = (
+    "tagulous/lib/jquery.js",
+    "tagulous/lib/select2-4/js/select2.full.min.js",
+    "tagulous/tagulous.js",
+    "tagulous/adaptor/select2-4.js",
+)
+TAGULOUS_AUTOCOMPLETE_CSS = {
+    'all': ['tagulous/lib/select2-4/css/select2.min.css']
+}
 # https://docs.djangoproject.com/en/dev/ref/settings/#root-urlconf
 ROOT_URLCONF = "uxnews.urls"
 

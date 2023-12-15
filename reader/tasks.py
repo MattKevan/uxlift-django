@@ -23,7 +23,7 @@ def fetch_posts(site_id):
 
     for entry in feed.entries:
         title = entry.title
-        content = entry.description if 'description' in entry else ''  # Use description field here
+        description = entry.description if 'description' in entry else ''  # Use description field here
         link = entry.link
         date_published = parse(entry.published) if 'published' in entry else None
         image = entry.get('image', '')
@@ -32,8 +32,8 @@ def fetch_posts(site_id):
             post = Post.objects.get(site=site, title=title, url=link)  # replace self with site
             # If post exists, update the fields
             changes_made = False
-            if post.content != content:
-                post.content = content
+            if post.description != description:
+                post.description = description
                 changes_made = True
             if post.date_published != date_published:
                 post.date_published = date_published
@@ -52,7 +52,7 @@ def fetch_posts(site_id):
             Post.objects.create(
                 site=site,  # replace self with site
                 title=title,
-                content=content,
+                description=description,
                 url=link,
                 date_published=date_published,
                 image_path=image,  # use image_path instead of image

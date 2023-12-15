@@ -29,6 +29,11 @@ class Topic(TagModel):
         # Tag options go here (optional)
         pass
 
+class Tag(TagModel):
+    class TagMeta:
+        # Tag options go here (optional)
+        pass
+
 class SiteType(TagModel):
     name = models.CharField(max_length=200)
     slug = models.SlugField(max_length=200, unique=True, blank=True)
@@ -145,26 +150,24 @@ class Site(models.Model):
         super().save(*args, **kwargs)
 
 class Post(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, null=True, blank=True, on_delete=models.SET_NULL)
-    created_date = models.DateTimeField(default=timezone.now)
-    site = models.ForeignKey(Site, on_delete=models.CASCADE, null=True, blank=True)
-    site_name = models.CharField(max_length=1000, null=True, blank=True) # new field for site name
-    site_title = models.CharField(max_length=1000, null=True, blank=True) # new field for site title
-    site_icon = models.URLField(null=True, blank=True) # new field for site icon URL
     title = models.CharField(max_length=1000)
-    url = models.URLField(max_length=1000)
-    image_path = models.URLField(max_length=1000,null=True, blank=True) # or models.ImageField() depending on how you are handling images
-    content = models.TextField(blank=True)  # the introduction or excerpt field
-    topics = TagField(to=Topic)
-    categories = models.CharField(max_length=1000, null=True, blank=True)  # or a many-to-many relation to a Category model
+    description = models.TextField(blank=True)
+    summary = models.TextField(blank=True)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, null=True, blank=True, on_delete=models.SET_NULL)
+    date_created = models.DateTimeField(default=timezone.now)
     date_published = models.DateTimeField(null=True, blank=True)
+    site = models.ForeignKey(Site, on_delete=models.CASCADE, null=True, blank=True)
+    link = models.URLField(max_length=1000)
+    image_path = models.URLField(max_length=1000,null=True, blank=True) # or models.ImageField() depending on how you are handling images
+    topics = TagField(to=Topic)
+    tags = TagField(to=Tag)
 
     def __str__(self):
         return self.title
     
     def fetch_og_image(self):
         try:
-            response = requests.get(self.url)
+            response = requests.get(self.link)
             soup = BeautifulSoup(response.content, 'html.parser')
             og_image = soup.find("meta", property="og:image")
             if og_image and og_image.get("content"):
@@ -175,20 +178,20 @@ class Post(models.Model):
     
     def fetch_web_data(self):
         # Only fetch web data if content is blank
-        if not self.content:
+        if not self.description:
             try:
-                response = requests.get(self.url)
+                response = requests.get(self.link)
                 soup = BeautifulSoup(response.content, 'html.parser')
                 og_description = soup.find('meta', property='og:description')['content'] if soup.find('meta', property='og:description') else None
                 if og_description:
-                    self.content = og_description
+                    self.description = og_description
             except Exception as e:
                 print(f"Error while fetching web data for post '{self.title}': {e}")
 
     def find_or_create_site(self):
-        post_url_parsed = urlparse(self.url)
+        post_url_parsed = urlparse(self.link)
         post_root_url = f"{post_url_parsed.scheme}://{post_url_parsed.netloc}"
-        site, created = Site.objects.get_or_create(url=post_root_url)
+        site, created = Site.objects.get_or_create(link=post_root_url)
         return site
 
     def save(self, *args, **kwargs):

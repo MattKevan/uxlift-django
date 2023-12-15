@@ -11,7 +11,7 @@ def fetch_posts_for_site(site):
     feed = feedparser.parse(site.feed_url)
     for entry in feed.entries:
         title = entry.title
-        content = entry.get('description', '')  # Use description field
+        description = entry.get('description', '')  # Use description field
         link = entry.link
         date_published = parse(entry.published) if 'published' in entry else None
         image = entry.get('image', '')
@@ -22,7 +22,7 @@ def fetch_posts_for_site(site):
             title=title,
             url=link,
             defaults={
-                'content': content,
+                'description': description,
                 'date_published': date_published,
                 'image_path': image,
                 'categories': categories,
@@ -32,8 +32,8 @@ def fetch_posts_for_site(site):
         # Update post if not created (existing post)
         if not created:
             changes_made = False
-            if post.content != content:
-                post.content = content
+            if post.description != description:
+                post.description = description
                 changes_made = True
             if post.date_published != date_published:
                 post.date_published = date_published
